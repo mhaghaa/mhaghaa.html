@@ -1,0 +1,3660 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ebc2dc9fb6443e3e7d3e26dc51180195 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ebc2dc9fb6443e3e7d3e26dc51180195" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ebc2dc9fb6443e3e7d3e26dc51180195 = L.map(
+                "map_ebc2dc9fb6443e3e7d3e26dc51180195",
+                {
+                    center: [31.9522, 35.2332],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6ba69b91572b30448d4e7cee3808f3da = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+            var circle_marker_dcb03f70edbb808c0512f43f477110ff = L.circleMarker(
+                [31.7683, 35.2137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_470e7bbd7712db21ea4c9690bcdc9e0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9423c6c53b3ba6077bed0fd4882e625c = $(`<div id="html_9423c6c53b3ba6077bed0fd4882e625c" style="width: 100.0%; height: 100.0%;">Jerusalem</div>`)[0];
+                popup_470e7bbd7712db21ea4c9690bcdc9e0d.setContent(html_9423c6c53b3ba6077bed0fd4882e625c);
+            
+        
+
+        circle_marker_dcb03f70edbb808c0512f43f477110ff.bindPopup(popup_470e7bbd7712db21ea4c9690bcdc9e0d)
+        ;
+
+        
+    
+    
+            var circle_marker_c038996f0a019cd470db7473c4b7a9ec = L.circleMarker(
+                [31.7023, 35.2024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_28b93feb5b64a2900e4f710a68b301f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b388105fcd4637287743b8df1bc3017 = $(`<div id="html_2b388105fcd4637287743b8df1bc3017" style="width: 100.0%; height: 100.0%;">Bethlehem</div>`)[0];
+                popup_28b93feb5b64a2900e4f710a68b301f0.setContent(html_2b388105fcd4637287743b8df1bc3017);
+            
+        
+
+        circle_marker_c038996f0a019cd470db7473c4b7a9ec.bindPopup(popup_28b93feb5b64a2900e4f710a68b301f0)
+        ;
+
+        
+    
+    
+            var circle_marker_4b89242bcc8d8f57b71415444243ff69 = L.circleMarker(
+                [31.9071, 35.2023],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_a65d9fe8b0572ceb0dd0e35acd88cf9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6063ece4f2bb2b965b736d899bdfc9a7 = $(`<div id="html_6063ece4f2bb2b965b736d899bdfc9a7" style="width: 100.0%; height: 100.0%;">Ramallah</div>`)[0];
+                popup_a65d9fe8b0572ceb0dd0e35acd88cf9b.setContent(html_6063ece4f2bb2b965b736d899bdfc9a7);
+            
+        
+
+        circle_marker_4b89242bcc8d8f57b71415444243ff69.bindPopup(popup_a65d9fe8b0572ceb0dd0e35acd88cf9b)
+        ;
+
+        
+    
+    
+            var circle_marker_22e9bc1a6fba0b3e8cb883dc145868d0 = L.circleMarker(
+                [32.2215, 35.2544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_134b2177f388e1cb48c9b8bf3e033c57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0e4a219a50cb0a5d2115b288b437b7 = $(`<div id="html_ad0e4a219a50cb0a5d2115b288b437b7" style="width: 100.0%; height: 100.0%;">Nablus</div>`)[0];
+                popup_134b2177f388e1cb48c9b8bf3e033c57.setContent(html_ad0e4a219a50cb0a5d2115b288b437b7);
+            
+        
+
+        circle_marker_22e9bc1a6fba0b3e8cb883dc145868d0.bindPopup(popup_134b2177f388e1cb48c9b8bf3e033c57)
+        ;
+
+        
+    
+    
+            var circle_marker_45cc559706d96dad997dd03a2bc73d06 = L.circleMarker(
+                [31.5355, 35.094],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_197e40e5c95d3b654890ada728b77c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_931285e697202e990e55dd8a5b3a929a = $(`<div id="html_931285e697202e990e55dd8a5b3a929a" style="width: 100.0%; height: 100.0%;">Hebron</div>`)[0];
+                popup_197e40e5c95d3b654890ada728b77c2c.setContent(html_931285e697202e990e55dd8a5b3a929a);
+            
+        
+
+        circle_marker_45cc559706d96dad997dd03a2bc73d06.bindPopup(popup_197e40e5c95d3b654890ada728b77c2c)
+        ;
+
+        
+    
+    
+            var circle_marker_1d0b38dbff650d6da36893a85e7b43ad = L.circleMarker(
+                [32.4114, 35.2939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1d28ff5606351aaaf1c4c489aaef9175 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37b22a7b9712d1566058cb619df84cda = $(`<div id="html_37b22a7b9712d1566058cb619df84cda" style="width: 100.0%; height: 100.0%;">Jenin</div>`)[0];
+                popup_1d28ff5606351aaaf1c4c489aaef9175.setContent(html_37b22a7b9712d1566058cb619df84cda);
+            
+        
+
+        circle_marker_1d0b38dbff650d6da36893a85e7b43ad.bindPopup(popup_1d28ff5606351aaaf1c4c489aaef9175)
+        ;
+
+        
+    
+    
+            var circle_marker_18c25a893a530a7336d32207bfa42330 = L.circleMarker(
+                [31.5, 34.4667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_fecc2b1f4f900eedcd8573dbf3b11182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af750a4fce43766b0d8145ed493f550 = $(`<div id="html_4af750a4fce43766b0d8145ed493f550" style="width: 100.0%; height: 100.0%;">Gaza</div>`)[0];
+                popup_fecc2b1f4f900eedcd8573dbf3b11182.setContent(html_4af750a4fce43766b0d8145ed493f550);
+            
+        
+
+        circle_marker_18c25a893a530a7336d32207bfa42330.bindPopup(popup_fecc2b1f4f900eedcd8573dbf3b11182)
+        ;
+
+        
+    
+    
+            var circle_marker_2486d2c75c943de27d79cd08a517bec8 = L.circleMarker(
+                [31.2972, 34.2706],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c97c14aad8783eed7d05ff24f5b37340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2feab58f130a2d4e76ddef17e4e047eb = $(`<div id="html_2feab58f130a2d4e76ddef17e4e047eb" style="width: 100.0%; height: 100.0%;">Rafah</div>`)[0];
+                popup_c97c14aad8783eed7d05ff24f5b37340.setContent(html_2feab58f130a2d4e76ddef17e4e047eb);
+            
+        
+
+        circle_marker_2486d2c75c943de27d79cd08a517bec8.bindPopup(popup_c97c14aad8783eed7d05ff24f5b37340)
+        ;
+
+        
+    
+    
+            var circle_marker_6ad6f6d5fe0ea07fe6fbc459e6520fe1 = L.circleMarker(
+                [32.09, 35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b7a1b5d509394c0bfbee787a225a4a9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa8d1edbb4ab2e2e91543f3a3cc04cfe = $(`<div id="html_fa8d1edbb4ab2e2e91543f3a3cc04cfe" style="width: 100.0%; height: 100.0%;">Qalqilya</div>`)[0];
+                popup_b7a1b5d509394c0bfbee787a225a4a9e.setContent(html_fa8d1edbb4ab2e2e91543f3a3cc04cfe);
+            
+        
+
+        circle_marker_6ad6f6d5fe0ea07fe6fbc459e6520fe1.bindPopup(popup_b7a1b5d509394c0bfbee787a225a4a9e)
+        ;
+
+        
+    
+    
+            var circle_marker_50186a7f036de144043e1c5b518b3215 = L.circleMarker(
+                [32.06, 35.08],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e1d8cd3a3b24f534a4461318c7345c4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0b7fd514f456e34a54923eed1836991 = $(`<div id="html_f0b7fd514f456e34a54923eed1836991" style="width: 100.0%; height: 100.0%;">Tulkarm</div>`)[0];
+                popup_e1d8cd3a3b24f534a4461318c7345c4b.setContent(html_f0b7fd514f456e34a54923eed1836991);
+            
+        
+
+        circle_marker_50186a7f036de144043e1c5b518b3215.bindPopup(popup_e1d8cd3a3b24f534a4461318c7345c4b)
+        ;
+
+        
+    
+    
+            var circle_marker_85f0070be7548cf57f58dd773ff73b96 = L.circleMarker(
+                [31.34, 34.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c871966997ff99f11672dcbf45759c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a588e239d17615bb7e95ed5d4066a2b6 = $(`<div id="html_a588e239d17615bb7e95ed5d4066a2b6" style="width: 100.0%; height: 100.0%;">Khan Yunis</div>`)[0];
+                popup_c871966997ff99f11672dcbf45759c38.setContent(html_a588e239d17615bb7e95ed5d4066a2b6);
+            
+        
+
+        circle_marker_85f0070be7548cf57f58dd773ff73b96.bindPopup(popup_c871966997ff99f11672dcbf45759c38)
+        ;
+
+        
+    
+    
+            var circle_marker_ec8b940fc064477f233ec61af55038ef = L.circleMarker(
+                [31.43, 34.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_bb260d8693885d0182c7f861fb0d1e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4143f557ce60156de3215b9a8c6fe1f7 = $(`<div id="html_4143f557ce60156de3215b9a8c6fe1f7" style="width: 100.0%; height: 100.0%;">Deir al-Balah</div>`)[0];
+                popup_bb260d8693885d0182c7f861fb0d1e71.setContent(html_4143f557ce60156de3215b9a8c6fe1f7);
+            
+        
+
+        circle_marker_ec8b940fc064477f233ec61af55038ef.bindPopup(popup_bb260d8693885d0182c7f861fb0d1e71)
+        ;
+
+        
+    
+    
+            var circle_marker_f66188a17d069baf0d964da0371126b6 = L.circleMarker(
+                [32.25, 35.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_68db03151f1dccbc9d0eccdc5983c8ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba3161069cb76b67b4d3e271d0fee9a9 = $(`<div id="html_ba3161069cb76b67b4d3e271d0fee9a9" style="width: 100.0%; height: 100.0%;">Maghar</div>`)[0];
+                popup_68db03151f1dccbc9d0eccdc5983c8ee.setContent(html_ba3161069cb76b67b4d3e271d0fee9a9);
+            
+        
+
+        circle_marker_f66188a17d069baf0d964da0371126b6.bindPopup(popup_68db03151f1dccbc9d0eccdc5983c8ee)
+        ;
+
+        
+    
+    
+            var circle_marker_2e2dd1984ded0900271e82521596f650 = L.circleMarker(
+                [32.07, 35.14],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e27cb8098ef72f754a3b31a3d0347ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae13831eab1550fa465b622b9933a37 = $(`<div id="html_aae13831eab1550fa465b622b9933a37" style="width: 100.0%; height: 100.0%;">Dayr al-Ghusun</div>`)[0];
+                popup_e27cb8098ef72f754a3b31a3d0347ac8.setContent(html_aae13831eab1550fa465b622b9933a37);
+            
+        
+
+        circle_marker_2e2dd1984ded0900271e82521596f650.bindPopup(popup_e27cb8098ef72f754a3b31a3d0347ac8)
+        ;
+
+        
+    
+    
+            var circle_marker_b30633331f314bc367f7d2779ec577ae = L.circleMarker(
+                [32.05, 35.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1649148374f7665d1b28866856b7d29b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78c61f35c36abeb206ea3674a2a342a1 = $(`<div id="html_78c61f35c36abeb206ea3674a2a342a1" style="width: 100.0%; height: 100.0%;">Anabta</div>`)[0];
+                popup_1649148374f7665d1b28866856b7d29b.setContent(html_78c61f35c36abeb206ea3674a2a342a1);
+            
+        
+
+        circle_marker_b30633331f314bc367f7d2779ec577ae.bindPopup(popup_1649148374f7665d1b28866856b7d29b)
+        ;
+
+        
+    
+    
+            var circle_marker_e11b6e94b7c52d1b01f563c0d616e074 = L.circleMarker(
+                [31.92, 35.19],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e5b3287e44569f115be510b502e9a119 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9680ad8ff7fcdc993faa6e86539075ea = $(`<div id="html_9680ad8ff7fcdc993faa6e86539075ea" style="width: 100.0%; height: 100.0%;">Atara</div>`)[0];
+                popup_e5b3287e44569f115be510b502e9a119.setContent(html_9680ad8ff7fcdc993faa6e86539075ea);
+            
+        
+
+        circle_marker_e11b6e94b7c52d1b01f563c0d616e074.bindPopup(popup_e5b3287e44569f115be510b502e9a119)
+        ;
+
+        
+    
+    
+            var circle_marker_09df38f1a56ac035bf0f4f13ec927fff = L.circleMarker(
+                [32.06, 35.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_41be9c3e2bec79ba42931e2e6dd3fa3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c6c4424639c337b7f6d8ae18c1bfbc = $(`<div id="html_d3c6c4424639c337b7f6d8ae18c1bfbc" style="width: 100.0%; height: 100.0%;">Azoun</div>`)[0];
+                popup_41be9c3e2bec79ba42931e2e6dd3fa3e.setContent(html_d3c6c4424639c337b7f6d8ae18c1bfbc);
+            
+        
+
+        circle_marker_09df38f1a56ac035bf0f4f13ec927fff.bindPopup(popup_41be9c3e2bec79ba42931e2e6dd3fa3e)
+        ;
+
+        
+    
+    
+            var circle_marker_3a1b05722eafed0a233c4e65a5f72235 = L.circleMarker(
+                [31.91, 35.12],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ba66ac79935075cb2669b4cdc9f61f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fb9b5d69edd145d360f94cb5a460183 = $(`<div id="html_3fb9b5d69edd145d360f94cb5a460183" style="width: 100.0%; height: 100.0%;">Beit Sira</div>`)[0];
+                popup_ba66ac79935075cb2669b4cdc9f61f2e.setContent(html_3fb9b5d69edd145d360f94cb5a460183);
+            
+        
+
+        circle_marker_3a1b05722eafed0a233c4e65a5f72235.bindPopup(popup_ba66ac79935075cb2669b4cdc9f61f2e)
+        ;
+
+        
+    
+    
+            var poly_line_ef0706065a26be035b30db70536273c1 = L.polyline(
+                [[31.7683, 35.2137], [31.7023, 35.2024]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_7d3b5f0c3795edb40ecdd38c6a3898a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66c344b26040f648d6cb9511deba5e17 = $(`<div id="html_66c344b26040f648d6cb9511deba5e17" style="width: 100.0%; height: 100.0%;">Jerusalem to Bethlehem: 7.40 km</div>`)[0];
+                popup_7d3b5f0c3795edb40ecdd38c6a3898a9.setContent(html_66c344b26040f648d6cb9511deba5e17);
+            
+        
+
+        poly_line_ef0706065a26be035b30db70536273c1.bindPopup(popup_7d3b5f0c3795edb40ecdd38c6a3898a9)
+        ;
+
+        
+    
+    
+            var poly_line_8114503ed483b56f862af1dda760aa37 = L.polyline(
+                [[31.7683, 35.2137], [31.9071, 35.2023]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f603144b9dbb7b00bddc83327cd5266b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37a118f67164e2019e757b15b152991 = $(`<div id="html_b37a118f67164e2019e757b15b152991" style="width: 100.0%; height: 100.0%;">Jerusalem to Ramallah: 15.43 km</div>`)[0];
+                popup_f603144b9dbb7b00bddc83327cd5266b.setContent(html_b37a118f67164e2019e757b15b152991);
+            
+        
+
+        poly_line_8114503ed483b56f862af1dda760aa37.bindPopup(popup_f603144b9dbb7b00bddc83327cd5266b)
+        ;
+
+        
+    
+    
+            var poly_line_580e2556c555c7b27c6feaa87cabbc8d = L.polyline(
+                [[31.7683, 35.2137], [32.2215, 35.2544]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1e5d9f8e8bb3b49bced3ea36aae6ce81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faf6bde3305e279e4afbf8b2108ce332 = $(`<div id="html_faf6bde3305e279e4afbf8b2108ce332" style="width: 100.0%; height: 100.0%;">Jerusalem to Nablus: 50.40 km</div>`)[0];
+                popup_1e5d9f8e8bb3b49bced3ea36aae6ce81.setContent(html_faf6bde3305e279e4afbf8b2108ce332);
+            
+        
+
+        poly_line_580e2556c555c7b27c6feaa87cabbc8d.bindPopup(popup_1e5d9f8e8bb3b49bced3ea36aae6ce81)
+        ;
+
+        
+    
+    
+            var poly_line_48431c3a36c482aae4a553a026597c5d = L.polyline(
+                [[31.7683, 35.2137], [31.5355, 35.094]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_a53729c18a246f2f56ae70971bebb2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7742367f59f0b1ba8a3a2f390c3ea763 = $(`<div id="html_7742367f59f0b1ba8a3a2f390c3ea763" style="width: 100.0%; height: 100.0%;">Jerusalem to Hebron: 28.20 km</div>`)[0];
+                popup_a53729c18a246f2f56ae70971bebb2f7.setContent(html_7742367f59f0b1ba8a3a2f390c3ea763);
+            
+        
+
+        poly_line_48431c3a36c482aae4a553a026597c5d.bindPopup(popup_a53729c18a246f2f56ae70971bebb2f7)
+        ;
+
+        
+    
+    
+            var poly_line_17448d89562104828ce398424bb4b2fb = L.polyline(
+                [[31.7683, 35.2137], [32.4114, 35.2939]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4c41f7d108a5076a5cd01bbcf915a2a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd36023bab67fdbdca1adab5e0d782ba = $(`<div id="html_fd36023bab67fdbdca1adab5e0d782ba" style="width: 100.0%; height: 100.0%;">Jerusalem to Jenin: 71.71 km</div>`)[0];
+                popup_4c41f7d108a5076a5cd01bbcf915a2a0.setContent(html_fd36023bab67fdbdca1adab5e0d782ba);
+            
+        
+
+        poly_line_17448d89562104828ce398424bb4b2fb.bindPopup(popup_4c41f7d108a5076a5cd01bbcf915a2a0)
+        ;
+
+        
+    
+    
+            var poly_line_6e55a3e835efd2807bc1af6ec5c329aa = L.polyline(
+                [[31.7683, 35.2137], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4c3f83524423b6c83971452af3112176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d473c4cb73362e22f652717735ccb25 = $(`<div id="html_1d473c4cb73362e22f652717735ccb25" style="width: 100.0%; height: 100.0%;">Jerusalem to Gaza: 76.86 km</div>`)[0];
+                popup_4c3f83524423b6c83971452af3112176.setContent(html_1d473c4cb73362e22f652717735ccb25);
+            
+        
+
+        poly_line_6e55a3e835efd2807bc1af6ec5c329aa.bindPopup(popup_4c3f83524423b6c83971452af3112176)
+        ;
+
+        
+    
+    
+            var poly_line_a357c5cab4fbf34def45c7467e042ab5 = L.polyline(
+                [[31.7683, 35.2137], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_5dca08464df8b34f19f313fddb2ee881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c50eeb9628ccd2320b1d6fd085026508 = $(`<div id="html_c50eeb9628ccd2320b1d6fd085026508" style="width: 100.0%; height: 100.0%;">Jerusalem to Rafah: 103.68 km</div>`)[0];
+                popup_5dca08464df8b34f19f313fddb2ee881.setContent(html_c50eeb9628ccd2320b1d6fd085026508);
+            
+        
+
+        poly_line_a357c5cab4fbf34def45c7467e042ab5.bindPopup(popup_5dca08464df8b34f19f313fddb2ee881)
+        ;
+
+        
+    
+    
+            var poly_line_d6054e44f2e7cbd80cdf1873afa20f1c = L.polyline(
+                [[31.7683, 35.2137], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_07c090a91cb8b58c2586b7b0f7f5d79f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad59decad3f719af4c4df4f177b4dcf7 = $(`<div id="html_ad59decad3f719af4c4df4f177b4dcf7" style="width: 100.0%; height: 100.0%;">Jerusalem to Qalqilya: 38.17 km</div>`)[0];
+                popup_07c090a91cb8b58c2586b7b0f7f5d79f.setContent(html_ad59decad3f719af4c4df4f177b4dcf7);
+            
+        
+
+        poly_line_d6054e44f2e7cbd80cdf1873afa20f1c.bindPopup(popup_07c090a91cb8b58c2586b7b0f7f5d79f)
+        ;
+
+        
+    
+    
+            var poly_line_3220721f8afe0214b5726c74da4c2269 = L.polyline(
+                [[31.7683, 35.2137], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_acf4b3d19c7636e9ed6d766bd5597dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9c890013406e20c46c12a6e509508be = $(`<div id="html_c9c890013406e20c46c12a6e509508be" style="width: 100.0%; height: 100.0%;">Jerusalem to Tulkarm: 34.73 km</div>`)[0];
+                popup_acf4b3d19c7636e9ed6d766bd5597dc3.setContent(html_c9c890013406e20c46c12a6e509508be);
+            
+        
+
+        poly_line_3220721f8afe0214b5726c74da4c2269.bindPopup(popup_acf4b3d19c7636e9ed6d766bd5597dc3)
+        ;
+
+        
+    
+    
+            var poly_line_2a609dc432c40a11a380eed4fd7e5b04 = L.polyline(
+                [[31.7683, 35.2137], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c74ecfe05ed127831e7af970a785daa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eeae4308bfcd53068c688dccdbce50f = $(`<div id="html_7eeae4308bfcd53068c688dccdbce50f" style="width: 100.0%; height: 100.0%;">Jerusalem to Khan Yunis: 98.07 km</div>`)[0];
+                popup_c74ecfe05ed127831e7af970a785daa2.setContent(html_7eeae4308bfcd53068c688dccdbce50f);
+            
+        
+
+        poly_line_2a609dc432c40a11a380eed4fd7e5b04.bindPopup(popup_c74ecfe05ed127831e7af970a785daa2)
+        ;
+
+        
+    
+    
+            var poly_line_e743f31fb3b610ee8ea0de009200cd6b = L.polyline(
+                [[31.7683, 35.2137], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c90b64c92e0e42dddc13ec24cbe1b601 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e470ca5f4374dc45de8c6ca8b3fa6e4 = $(`<div id="html_4e470ca5f4374dc45de8c6ca8b3fa6e4" style="width: 100.0%; height: 100.0%;">Jerusalem to Deir al-Balah: 91.01 km</div>`)[0];
+                popup_c90b64c92e0e42dddc13ec24cbe1b601.setContent(html_4e470ca5f4374dc45de8c6ca8b3fa6e4);
+            
+        
+
+        poly_line_e743f31fb3b610ee8ea0de009200cd6b.bindPopup(popup_c90b64c92e0e42dddc13ec24cbe1b601)
+        ;
+
+        
+    
+    
+            var poly_line_96473a63e72d0c534b03faadbb8fc54c = L.polyline(
+                [[31.7683, 35.2137], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_83af31d7c77e9b19a3c0a73399ee3db8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c5b84a201ebca0eca7f303b7e56ebac = $(`<div id="html_0c5b84a201ebca0eca7f303b7e56ebac" style="width: 100.0%; height: 100.0%;">Jerusalem to Maghar: 53.90 km</div>`)[0];
+                popup_83af31d7c77e9b19a3c0a73399ee3db8.setContent(html_0c5b84a201ebca0eca7f303b7e56ebac);
+            
+        
+
+        poly_line_96473a63e72d0c534b03faadbb8fc54c.bindPopup(popup_83af31d7c77e9b19a3c0a73399ee3db8)
+        ;
+
+        
+    
+    
+            var poly_line_723084b808b30d16f5abc009bd894cf1 = L.polyline(
+                [[31.7683, 35.2137], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_a394ed99f6ef6dbd01920bc88244db36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3233e3681b16be13d70290638af19f0e = $(`<div id="html_3233e3681b16be13d70290638af19f0e" style="width: 100.0%; height: 100.0%;">Jerusalem to Dayr al-Ghusun: 34.17 km</div>`)[0];
+                popup_a394ed99f6ef6dbd01920bc88244db36.setContent(html_3233e3681b16be13d70290638af19f0e);
+            
+        
+
+        poly_line_723084b808b30d16f5abc009bd894cf1.bindPopup(popup_a394ed99f6ef6dbd01920bc88244db36)
+        ;
+
+        
+    
+    
+            var poly_line_9de5368602ea0e36e9c08481805cf015 = L.polyline(
+                [[31.7683, 35.2137], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b1eb365e90b7f5d7c19d6b39ade4824b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4802d555cd03fe0e105c7cbe672d9919 = $(`<div id="html_4802d555cd03fe0e105c7cbe672d9919" style="width: 100.0%; height: 100.0%;">Jerusalem to Anabta: 31.81 km</div>`)[0];
+                popup_b1eb365e90b7f5d7c19d6b39ade4824b.setContent(html_4802d555cd03fe0e105c7cbe672d9919);
+            
+        
+
+        poly_line_9de5368602ea0e36e9c08481805cf015.bindPopup(popup_b1eb365e90b7f5d7c19d6b39ade4824b)
+        ;
+
+        
+    
+    
+            var poly_line_5e02f5c00cf262f27fe435b54a973abb = L.polyline(
+                [[31.7683, 35.2137], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_9748cae26290754e2ba6288ddf8d15f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca6a2ea701e4ce47179e7f3a9c6dd53 = $(`<div id="html_aca6a2ea701e4ce47179e7f3a9c6dd53" style="width: 100.0%; height: 100.0%;">Jerusalem to Atara: 16.97 km</div>`)[0];
+                popup_9748cae26290754e2ba6288ddf8d15f8.setContent(html_aca6a2ea701e4ce47179e7f3a9c6dd53);
+            
+        
+
+        poly_line_5e02f5c00cf262f27fe435b54a973abb.bindPopup(popup_9748cae26290754e2ba6288ddf8d15f8)
+        ;
+
+        
+    
+    
+            var poly_line_bd8046a8f213e71f6e3c93fc72fdb7b6 = L.polyline(
+                [[31.7683, 35.2137], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_afe722311e6b235acaa6ed990d7e5c60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd27e30cbc7e62faa188e8ab0a6d2ff3 = $(`<div id="html_cd27e30cbc7e62faa188e8ab0a6d2ff3" style="width: 100.0%; height: 100.0%;">Jerusalem to Azoun: 32.90 km</div>`)[0];
+                popup_afe722311e6b235acaa6ed990d7e5c60.setContent(html_cd27e30cbc7e62faa188e8ab0a6d2ff3);
+            
+        
+
+        poly_line_bd8046a8f213e71f6e3c93fc72fdb7b6.bindPopup(popup_afe722311e6b235acaa6ed990d7e5c60)
+        ;
+
+        
+    
+    
+            var poly_line_eb66e9149f88e77d688842c7b2043954 = L.polyline(
+                [[31.7683, 35.2137], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_10b96b169185a7ad163997ba4785bc86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2be9321dd6c578a635a0c6951bebb67 = $(`<div id="html_f2be9321dd6c578a635a0c6951bebb67" style="width: 100.0%; height: 100.0%;">Jerusalem to Beit Sira: 18.04 km</div>`)[0];
+                popup_10b96b169185a7ad163997ba4785bc86.setContent(html_f2be9321dd6c578a635a0c6951bebb67);
+            
+        
+
+        poly_line_eb66e9149f88e77d688842c7b2043954.bindPopup(popup_10b96b169185a7ad163997ba4785bc86)
+        ;
+
+        
+    
+    
+            var poly_line_18475b47e1bf4f9f3bb421218ab13fbd = L.polyline(
+                [[31.7023, 35.2024], [31.9071, 35.2023]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f57a4d720d668adb4d6ea9fa1b7a8db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d29b10fb422a5dce15aef1370486c2 = $(`<div id="html_d9d29b10fb422a5dce15aef1370486c2" style="width: 100.0%; height: 100.0%;">Bethlehem to Ramallah: 22.71 km</div>`)[0];
+                popup_f57a4d720d668adb4d6ea9fa1b7a8db4.setContent(html_d9d29b10fb422a5dce15aef1370486c2);
+            
+        
+
+        poly_line_18475b47e1bf4f9f3bb421218ab13fbd.bindPopup(popup_f57a4d720d668adb4d6ea9fa1b7a8db4)
+        ;
+
+        
+    
+    
+            var poly_line_b542ebbd47947dd7e8bad9425e6339de = L.polyline(
+                [[31.7023, 35.2024], [32.2215, 35.2544]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_2254552655cd7c3d60c09aec1fcdb30f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e6e477b5c96e5246b454fe1381230eb = $(`<div id="html_7e6e477b5c96e5246b454fe1381230eb" style="width: 100.0%; height: 100.0%;">Bethlehem to Nablus: 57.78 km</div>`)[0];
+                popup_2254552655cd7c3d60c09aec1fcdb30f.setContent(html_7e6e477b5c96e5246b454fe1381230eb);
+            
+        
+
+        poly_line_b542ebbd47947dd7e8bad9425e6339de.bindPopup(popup_2254552655cd7c3d60c09aec1fcdb30f)
+        ;
+
+        
+    
+    
+            var poly_line_a93232a56863abe8eca16b834d3b92cd = L.polyline(
+                [[31.7023, 35.2024], [31.5355, 35.094]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c044e8f3921fac1c27a9a5ca91218cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8a1f26a2953913be9a9267b40af2d9 = $(`<div id="html_ed8a1f26a2953913be9a9267b40af2d9" style="width: 100.0%; height: 100.0%;">Bethlehem to Hebron: 21.16 km</div>`)[0];
+                popup_c044e8f3921fac1c27a9a5ca91218cc5.setContent(html_ed8a1f26a2953913be9a9267b40af2d9);
+            
+        
+
+        poly_line_a93232a56863abe8eca16b834d3b92cd.bindPopup(popup_c044e8f3921fac1c27a9a5ca91218cc5)
+        ;
+
+        
+    
+    
+            var poly_line_fac322a8e1bd33ff138c164ce8d47728 = L.polyline(
+                [[31.7023, 35.2024], [32.4114, 35.2939]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_2058d90c1e2d4d09c092e40d089763d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8a40f306a9ddf68c5fd8e60d707e38f = $(`<div id="html_f8a40f306a9ddf68c5fd8e60d707e38f" style="width: 100.0%; height: 100.0%;">Bethlehem to Jenin: 79.10 km</div>`)[0];
+                popup_2058d90c1e2d4d09c092e40d089763d6.setContent(html_f8a40f306a9ddf68c5fd8e60d707e38f);
+            
+        
+
+        poly_line_fac322a8e1bd33ff138c164ce8d47728.bindPopup(popup_2058d90c1e2d4d09c092e40d089763d6)
+        ;
+
+        
+    
+    
+            var poly_line_32e0b5761a1fe1e496be9e99ea996fb4 = L.polyline(
+                [[31.7023, 35.2024], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_39d8ead6920fb6a226edbfd642888e5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b39b46813aeaf11f4202cd716c45a5 = $(`<div id="html_03b39b46813aeaf11f4202cd716c45a5" style="width: 100.0%; height: 100.0%;">Bethlehem to Gaza: 73.33 km</div>`)[0];
+                popup_39d8ead6920fb6a226edbfd642888e5d.setContent(html_03b39b46813aeaf11f4202cd716c45a5);
+            
+        
+
+        poly_line_32e0b5761a1fe1e496be9e99ea996fb4.bindPopup(popup_39d8ead6920fb6a226edbfd642888e5d)
+        ;
+
+        
+    
+    
+            var poly_line_25c396209b4f3d4e41a7c315015c56aa = L.polyline(
+                [[31.7023, 35.2024], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_db8c18ef19fa2694c9ad7f61b4a29314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9896fc26c236c087db134b578f0e872 = $(`<div id="html_b9896fc26c236c087db134b578f0e872" style="width: 100.0%; height: 100.0%;">Bethlehem to Rafah: 99.27 km</div>`)[0];
+                popup_db8c18ef19fa2694c9ad7f61b4a29314.setContent(html_b9896fc26c236c087db134b578f0e872);
+            
+        
+
+        poly_line_25c396209b4f3d4e41a7c315015c56aa.bindPopup(popup_db8c18ef19fa2694c9ad7f61b4a29314)
+        ;
+
+        
+    
+    
+            var poly_line_290d3d83dbf48aa636bc32ea135e7d5c = L.polyline(
+                [[31.7023, 35.2024], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_447086ebff176bcb242c1d8c14ef68ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42bfa0fd455ffadaf86c0e4a8e4df271 = $(`<div id="html_42bfa0fd455ffadaf86c0e4a8e4df271" style="width: 100.0%; height: 100.0%;">Bethlehem to Qalqilya: 44.78 km</div>`)[0];
+                popup_447086ebff176bcb242c1d8c14ef68ea.setContent(html_42bfa0fd455ffadaf86c0e4a8e4df271);
+            
+        
+
+        poly_line_290d3d83dbf48aa636bc32ea135e7d5c.bindPopup(popup_447086ebff176bcb242c1d8c14ef68ea)
+        ;
+
+        
+    
+    
+            var poly_line_bc6a9bc56a6ce01302709f3a36a70f75 = L.polyline(
+                [[31.7023, 35.2024], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e996650cc35fc6a665dbf8949f10cfc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eae126715b84e4e87b00ba2cdacd635 = $(`<div id="html_8eae126715b84e4e87b00ba2cdacd635" style="width: 100.0%; height: 100.0%;">Bethlehem to Tulkarm: 41.32 km</div>`)[0];
+                popup_e996650cc35fc6a665dbf8949f10cfc9.setContent(html_8eae126715b84e4e87b00ba2cdacd635);
+            
+        
+
+        poly_line_bc6a9bc56a6ce01302709f3a36a70f75.bindPopup(popup_e996650cc35fc6a665dbf8949f10cfc9)
+        ;
+
+        
+    
+    
+            var poly_line_f51cd71469c438464ab5b257c2468fb5 = L.polyline(
+                [[31.7023, 35.2024], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e4e5d1273a00b97646288a284a907b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ef4377554a3658cfb89fd4c9838d1a = $(`<div id="html_28ef4377554a3658cfb89fd4c9838d1a" style="width: 100.0%; height: 100.0%;">Bethlehem to Khan Yunis: 93.80 km</div>`)[0];
+                popup_e4e5d1273a00b97646288a284a907b71.setContent(html_28ef4377554a3658cfb89fd4c9838d1a);
+            
+        
+
+        poly_line_f51cd71469c438464ab5b257c2468fb5.bindPopup(popup_e4e5d1273a00b97646288a284a907b71)
+        ;
+
+        
+    
+    
+            var poly_line_fc8676ca6c9dc7a74e45f4b268040b06 = L.polyline(
+                [[31.7023, 35.2024], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_7345ebfe32fac9aa5f8977d8b809baeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dfa34872a76e7ce452d419a01c29b50 = $(`<div id="html_9dfa34872a76e7ce452d419a01c29b50" style="width: 100.0%; height: 100.0%;">Bethlehem to Deir al-Balah: 87.26 km</div>`)[0];
+                popup_7345ebfe32fac9aa5f8977d8b809baeb.setContent(html_9dfa34872a76e7ce452d419a01c29b50);
+            
+        
+
+        poly_line_fc8676ca6c9dc7a74e45f4b268040b06.bindPopup(popup_7345ebfe32fac9aa5f8977d8b809baeb)
+        ;
+
+        
+    
+    
+            var poly_line_c9e8b392ad51d9c58c6f73dbf2e02e4e = L.polyline(
+                [[31.7023, 35.2024], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c0f998976f8bce708214fa792db8abab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe583f7fcda4a9afb0207835155b66ea = $(`<div id="html_fe583f7fcda4a9afb0207835155b66ea" style="width: 100.0%; height: 100.0%;">Bethlehem to Maghar: 61.29 km</div>`)[0];
+                popup_c0f998976f8bce708214fa792db8abab.setContent(html_fe583f7fcda4a9afb0207835155b66ea);
+            
+        
+
+        poly_line_c9e8b392ad51d9c58c6f73dbf2e02e4e.bindPopup(popup_c0f998976f8bce708214fa792db8abab)
+        ;
+
+        
+    
+    
+            var poly_line_1ab12b1423042cb7a63948ffe7f6f2ec = L.polyline(
+                [[31.7023, 35.2024], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_dd8a2ceb258e28af0379345e9895e624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b673ba7a0c1bb04c0206d1abc321941 = $(`<div id="html_9b673ba7a0c1bb04c0206d1abc321941" style="width: 100.0%; height: 100.0%;">Bethlehem to Dayr al-Ghusun: 41.20 km</div>`)[0];
+                popup_dd8a2ceb258e28af0379345e9895e624.setContent(html_9b673ba7a0c1bb04c0206d1abc321941);
+            
+        
+
+        poly_line_1ab12b1423042cb7a63948ffe7f6f2ec.bindPopup(popup_dd8a2ceb258e28af0379345e9895e624)
+        ;
+
+        
+    
+    
+            var poly_line_b43d733125131cdee8f74ce13dc06e5f = L.polyline(
+                [[31.7023, 35.2024], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_aaa61b6be4980ef6117ead5c9bdf8a6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2987b35bd1d14069953ed7daa4056df0 = $(`<div id="html_2987b35bd1d14069953ed7daa4056df0" style="width: 100.0%; height: 100.0%;">Bethlehem to Anabta: 38.87 km</div>`)[0];
+                popup_aaa61b6be4980ef6117ead5c9bdf8a6f.setContent(html_2987b35bd1d14069953ed7daa4056df0);
+            
+        
+
+        poly_line_b43d733125131cdee8f74ce13dc06e5f.bindPopup(popup_aaa61b6be4980ef6117ead5c9bdf8a6f)
+        ;
+
+        
+    
+    
+            var poly_line_e4df7433200c58e426f233238175b235 = L.polyline(
+                [[31.7023, 35.2024], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_80ff9dd39096975db4c3d1fa365a5215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c43ce5c82e20a42efa95d52683d9ed6d = $(`<div id="html_c43ce5c82e20a42efa95d52683d9ed6d" style="width: 100.0%; height: 100.0%;">Bethlehem to Atara: 24.17 km</div>`)[0];
+                popup_80ff9dd39096975db4c3d1fa365a5215.setContent(html_c43ce5c82e20a42efa95d52683d9ed6d);
+            
+        
+
+        poly_line_e4df7433200c58e426f233238175b235.bindPopup(popup_80ff9dd39096975db4c3d1fa365a5215)
+        ;
+
+        
+    
+    
+            var poly_line_5b255c4820e28f8b369dcb950044b0ba = L.polyline(
+                [[31.7023, 35.2024], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c61ff8960b9a1d3900f2147ef3f87a25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0954cf8e39272d128b9f60c8c926f735 = $(`<div id="html_0954cf8e39272d128b9f60c8c926f735" style="width: 100.0%; height: 100.0%;">Bethlehem to Azoun: 39.97 km</div>`)[0];
+                popup_c61ff8960b9a1d3900f2147ef3f87a25.setContent(html_0954cf8e39272d128b9f60c8c926f735);
+            
+        
+
+        poly_line_5b255c4820e28f8b369dcb950044b0ba.bindPopup(popup_c61ff8960b9a1d3900f2147ef3f87a25)
+        ;
+
+        
+    
+    
+            var poly_line_a1ee9de80e9af30daa59c23eb334a6fc = L.polyline(
+                [[31.7023, 35.2024], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e51ff65fe5d981642e53ac2f91eddcce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17eedf8c11def480073b4cb9be6c8e56 = $(`<div id="html_17eedf8c11def480073b4cb9be6c8e56" style="width: 100.0%; height: 100.0%;">Bethlehem to Beit Sira: 24.32 km</div>`)[0];
+                popup_e51ff65fe5d981642e53ac2f91eddcce.setContent(html_17eedf8c11def480073b4cb9be6c8e56);
+            
+        
+
+        poly_line_a1ee9de80e9af30daa59c23eb334a6fc.bindPopup(popup_e51ff65fe5d981642e53ac2f91eddcce)
+        ;
+
+        
+    
+    
+            var poly_line_2eccfa54940f60bd0537130ee5aed07f = L.polyline(
+                [[31.9071, 35.2023], [32.2215, 35.2544]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_7b361b69e0a9a220040e315f5ca7b1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76879589ea2eaaace08dba452cb6c795 = $(`<div id="html_76879589ea2eaaace08dba452cb6c795" style="width: 100.0%; height: 100.0%;">Ramallah to Nablus: 35.21 km</div>`)[0];
+                popup_7b361b69e0a9a220040e315f5ca7b1c9.setContent(html_76879589ea2eaaace08dba452cb6c795);
+            
+        
+
+        poly_line_2eccfa54940f60bd0537130ee5aed07f.bindPopup(popup_7b361b69e0a9a220040e315f5ca7b1c9)
+        ;
+
+        
+    
+    
+            var poly_line_12a59c78fa954ab1c0a936c30991914a = L.polyline(
+                [[31.9071, 35.2023], [31.5355, 35.094]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_80cc095c8f8380da933a555df02d46ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_437ab0c5b909d6e7c3c6c5683a066ebd = $(`<div id="html_437ab0c5b909d6e7c3c6c5683a066ebd" style="width: 100.0%; height: 100.0%;">Ramallah to Hebron: 42.46 km</div>`)[0];
+                popup_80cc095c8f8380da933a555df02d46ec.setContent(html_437ab0c5b909d6e7c3c6c5683a066ebd);
+            
+        
+
+        poly_line_12a59c78fa954ab1c0a936c30991914a.bindPopup(popup_80cc095c8f8380da933a555df02d46ec)
+        ;
+
+        
+    
+    
+            var poly_line_f0be2b615ddd1d2e37d1925addba91ce = L.polyline(
+                [[31.9071, 35.2023], [32.4114, 35.2939]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e5c603dd38de9cd882baa7adeba22edc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498a1c7a957529a626cd737fd01cf63b = $(`<div id="html_498a1c7a957529a626cd737fd01cf63b" style="width: 100.0%; height: 100.0%;">Ramallah to Jenin: 56.59 km</div>`)[0];
+                popup_e5c603dd38de9cd882baa7adeba22edc.setContent(html_498a1c7a957529a626cd737fd01cf63b);
+            
+        
+
+        poly_line_f0be2b615ddd1d2e37d1925addba91ce.bindPopup(popup_e5c603dd38de9cd882baa7adeba22edc)
+        ;
+
+        
+    
+    
+            var poly_line_e59ed3e3353eb9c2e395c76c8c2b120e = L.polyline(
+                [[31.9071, 35.2023], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_92bcbdf3a1a5f11fa38dbf11e3d414d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7ec30798cdddda451725a386dc2228d = $(`<div id="html_b7ec30798cdddda451725a386dc2228d" style="width: 100.0%; height: 100.0%;">Ramallah to Gaza: 83.07 km</div>`)[0];
+                popup_92bcbdf3a1a5f11fa38dbf11e3d414d2.setContent(html_b7ec30798cdddda451725a386dc2228d);
+            
+        
+
+        poly_line_e59ed3e3353eb9c2e395c76c8c2b120e.bindPopup(popup_92bcbdf3a1a5f11fa38dbf11e3d414d2)
+        ;
+
+        
+    
+    
+            var poly_line_3c27965282e16ac84e7ac0f72fe54b44 = L.polyline(
+                [[31.9071, 35.2023], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_0a3218528acc121f0be705b94fcebe42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd2ac1d7648b2ebb461e113fe8b6b092 = $(`<div id="html_bd2ac1d7648b2ebb461e113fe8b6b092" style="width: 100.0%; height: 100.0%;">Ramallah to Rafah: 111.31 km</div>`)[0];
+                popup_0a3218528acc121f0be705b94fcebe42.setContent(html_bd2ac1d7648b2ebb461e113fe8b6b092);
+            
+        
+
+        poly_line_3c27965282e16ac84e7ac0f72fe54b44.bindPopup(popup_0a3218528acc121f0be705b94fcebe42)
+        ;
+
+        
+    
+    
+            var poly_line_f049db8810c516640410b226ad4dfebe = L.polyline(
+                [[31.9071, 35.2023], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d5d233d974b695578d174ebebb3ac8f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64ed9b8b6750d202dcc0c697dda3fb0a = $(`<div id="html_64ed9b8b6750d202dcc0c697dda3fb0a" style="width: 100.0%; height: 100.0%;">Ramallah to Qalqilya: 23.82 km</div>`)[0];
+                popup_d5d233d974b695578d174ebebb3ac8f8.setContent(html_64ed9b8b6750d202dcc0c697dda3fb0a);
+            
+        
+
+        poly_line_f049db8810c516640410b226ad4dfebe.bindPopup(popup_d5d233d974b695578d174ebebb3ac8f8)
+        ;
+
+        
+    
+    
+            var poly_line_71568fff8770cceeebaab765f0eac431 = L.polyline(
+                [[31.9071, 35.2023], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_9ba3338d78457732fd0589fce04621e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523389f8d51952240213b663857d8ab7 = $(`<div id="html_523389f8d51952240213b663857d8ab7" style="width: 100.0%; height: 100.0%;">Ramallah to Tulkarm: 20.52 km</div>`)[0];
+                popup_9ba3338d78457732fd0589fce04621e1.setContent(html_523389f8d51952240213b663857d8ab7);
+            
+        
+
+        poly_line_71568fff8770cceeebaab765f0eac431.bindPopup(popup_9ba3338d78457732fd0589fce04621e1)
+        ;
+
+        
+    
+    
+            var poly_line_57643870700748032cd76ab2459532ac = L.polyline(
+                [[31.9071, 35.2023], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ddb1273a318a79fac750b9e049b7885e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12deb60431835329cdf20ae15671df0a = $(`<div id="html_12deb60431835329cdf20ae15671df0a" style="width: 100.0%; height: 100.0%;">Ramallah to Khan Yunis: 105.46 km</div>`)[0];
+                popup_ddb1273a318a79fac750b9e049b7885e.setContent(html_12deb60431835329cdf20ae15671df0a);
+            
+        
+
+        poly_line_57643870700748032cd76ab2459532ac.bindPopup(popup_ddb1273a318a79fac750b9e049b7885e)
+        ;
+
+        
+    
+    
+            var poly_line_37c6a6b9236ada63b5b0851b04c2c8f4 = L.polyline(
+                [[31.9071, 35.2023], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_41bf3fba7a2178d6b25f8629edaead52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d94b648f4d363602e57d2a6bedb4251 = $(`<div id="html_1d94b648f4d363602e57d2a6bedb4251" style="width: 100.0%; height: 100.0%;">Ramallah to Deir al-Balah: 97.39 km</div>`)[0];
+                popup_41bf3fba7a2178d6b25f8629edaead52.setContent(html_1d94b648f4d363602e57d2a6bedb4251);
+            
+        
+
+        poly_line_37c6a6b9236ada63b5b0851b04c2c8f4.bindPopup(popup_41bf3fba7a2178d6b25f8629edaead52)
+        ;
+
+        
+    
+    
+            var poly_line_7e2fb471d39744c7c1995869e4222b2f = L.polyline(
+                [[31.9071, 35.2023], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_46d352aa0898256a922bd01fdfdd66e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c933689c531199f59bd233b6272fe679 = $(`<div id="html_c933689c531199f59bd233b6272fe679" style="width: 100.0%; height: 100.0%;">Ramallah to Maghar: 38.91 km</div>`)[0];
+                popup_46d352aa0898256a922bd01fdfdd66e2.setContent(html_c933689c531199f59bd233b6272fe679);
+            
+        
+
+        poly_line_7e2fb471d39744c7c1995869e4222b2f.bindPopup(popup_46d352aa0898256a922bd01fdfdd66e2)
+        ;
+
+        
+    
+    
+            var poly_line_d39142ae199b527447d7f8d4579f8088 = L.polyline(
+                [[31.9071, 35.2023], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_6aff494dc43c7e5c9698343862c8d012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23a079d5b67f602ca242a3f348b578e8 = $(`<div id="html_23a079d5b67f602ca242a3f348b578e8" style="width: 100.0%; height: 100.0%;">Ramallah to Dayr al-Ghusun: 19.00 km</div>`)[0];
+                popup_6aff494dc43c7e5c9698343862c8d012.setContent(html_23a079d5b67f602ca242a3f348b578e8);
+            
+        
+
+        poly_line_d39142ae199b527447d7f8d4579f8088.bindPopup(popup_6aff494dc43c7e5c9698343862c8d012)
+        ;
+
+        
+    
+    
+            var poly_line_cec8c69cdc463511d1226043d2bf22aa = L.polyline(
+                [[31.9071, 35.2023], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e0a4a72d991c44310021fbdd0ab089a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e146f4c4e86e8a5a4853c6fa66d0b4a = $(`<div id="html_1e146f4c4e86e8a5a4853c6fa66d0b4a" style="width: 100.0%; height: 100.0%;">Ramallah to Anabta: 16.60 km</div>`)[0];
+                popup_e0a4a72d991c44310021fbdd0ab089a3.setContent(html_1e146f4c4e86e8a5a4853c6fa66d0b4a);
+            
+        
+
+        poly_line_cec8c69cdc463511d1226043d2bf22aa.bindPopup(popup_e0a4a72d991c44310021fbdd0ab089a3)
+        ;
+
+        
+    
+    
+            var poly_line_b9afc72a878059888f3950ea47fad35d = L.polyline(
+                [[31.9071, 35.2023], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_895c8cabaf6315e5c69451dd6ec61c00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359a6123823813ad0466020b8b48e2f5 = $(`<div id="html_359a6123823813ad0466020b8b48e2f5" style="width: 100.0%; height: 100.0%;">Ramallah to Atara: 1.84 km</div>`)[0];
+                popup_895c8cabaf6315e5c69451dd6ec61c00.setContent(html_359a6123823813ad0466020b8b48e2f5);
+            
+        
+
+        poly_line_b9afc72a878059888f3950ea47fad35d.bindPopup(popup_895c8cabaf6315e5c69451dd6ec61c00)
+        ;
+
+        
+    
+    
+            var poly_line_deaf2f7123d5388e27995bfaab408bb8 = L.polyline(
+                [[31.9071, 35.2023], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_fac1f84ed3a3855cafacb93062eb729d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa96956dfa3fbc7c3862b4fa11eeec3e = $(`<div id="html_fa96956dfa3fbc7c3862b4fa11eeec3e" style="width: 100.0%; height: 100.0%;">Ramallah to Azoun: 17.66 km</div>`)[0];
+                popup_fac1f84ed3a3855cafacb93062eb729d.setContent(html_fa96956dfa3fbc7c3862b4fa11eeec3e);
+            
+        
+
+        poly_line_deaf2f7123d5388e27995bfaab408bb8.bindPopup(popup_fac1f84ed3a3855cafacb93062eb729d)
+        ;
+
+        
+    
+    
+            var poly_line_3156096383fa2ba90710dfdf0c57a3cd = L.polyline(
+                [[31.9071, 35.2023], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4a2474babb56722c8ef7b646ff40b3b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64c3c34bc14dd6abb9996998ee31682a = $(`<div id="html_64c3c34bc14dd6abb9996998ee31682a" style="width: 100.0%; height: 100.0%;">Ramallah to Beit Sira: 7.79 km</div>`)[0];
+                popup_4a2474babb56722c8ef7b646ff40b3b1.setContent(html_64c3c34bc14dd6abb9996998ee31682a);
+            
+        
+
+        poly_line_3156096383fa2ba90710dfdf0c57a3cd.bindPopup(popup_4a2474babb56722c8ef7b646ff40b3b1)
+        ;
+
+        
+    
+    
+            var poly_line_558c4b65a4bb0e96395269e93e2fdb25 = L.polyline(
+                [[32.2215, 35.2544], [31.5355, 35.094]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_35c9f13e185ebed52e8b34274596a706 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4cdb3ffbaec6aec85200e472e3aa04b = $(`<div id="html_b4cdb3ffbaec6aec85200e472e3aa04b" style="width: 100.0%; height: 100.0%;">Nablus to Hebron: 77.57 km</div>`)[0];
+                popup_35c9f13e185ebed52e8b34274596a706.setContent(html_b4cdb3ffbaec6aec85200e472e3aa04b);
+            
+        
+
+        poly_line_558c4b65a4bb0e96395269e93e2fdb25.bindPopup(popup_35c9f13e185ebed52e8b34274596a706)
+        ;
+
+        
+    
+    
+            var poly_line_e936bcbb0882c9c42af61e1b9053f1a1 = L.polyline(
+                [[32.2215, 35.2544], [32.4114, 35.2939]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_30e0b47bce1f7111dee514e91f468853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1e841bbdfae63eec81a9b41504b147e = $(`<div id="html_b1e841bbdfae63eec81a9b41504b147e" style="width: 100.0%; height: 100.0%;">Nablus to Jenin: 21.38 km</div>`)[0];
+                popup_30e0b47bce1f7111dee514e91f468853.setContent(html_b1e841bbdfae63eec81a9b41504b147e);
+            
+        
+
+        poly_line_e936bcbb0882c9c42af61e1b9053f1a1.bindPopup(popup_30e0b47bce1f7111dee514e91f468853)
+        ;
+
+        
+    
+    
+            var poly_line_7149df41c120d97c12c9198238a36276 = L.polyline(
+                [[32.2215, 35.2544], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_81ca55e680b11d32d2196ce174ab191a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_475bb9fd02da480a8e477b5f64e0b265 = $(`<div id="html_475bb9fd02da480a8e477b5f64e0b265" style="width: 100.0%; height: 100.0%;">Nablus to Gaza: 109.35 km</div>`)[0];
+                popup_81ca55e680b11d32d2196ce174ab191a.setContent(html_475bb9fd02da480a8e477b5f64e0b265);
+            
+        
+
+        poly_line_7149df41c120d97c12c9198238a36276.bindPopup(popup_81ca55e680b11d32d2196ce174ab191a)
+        ;
+
+        
+    
+    
+            var poly_line_3e66e92cf0730e87aa4af260885d3ea2 = L.polyline(
+                [[32.2215, 35.2544], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_43a0d9d5e769b336f625fd34608323ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_386f1fc0465b901e043d2028723d6829 = $(`<div id="html_386f1fc0465b901e043d2028723d6829" style="width: 100.0%; height: 100.0%;">Nablus to Rafah: 138.53 km</div>`)[0];
+                popup_43a0d9d5e769b336f625fd34608323ed.setContent(html_386f1fc0465b901e043d2028723d6829);
+            
+        
+
+        poly_line_3e66e92cf0730e87aa4af260885d3ea2.bindPopup(popup_43a0d9d5e769b336f625fd34608323ed)
+        ;
+
+        
+    
+    
+            var poly_line_011873709b287cbf07f4e614ec55ca06 = L.polyline(
+                [[32.2215, 35.2544], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3c1463435d6b638fbd1b3fe09d8a3df2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f0793cb958c5b04f60450d5440c789 = $(`<div id="html_82f0793cb958c5b04f60450d5440c789" style="width: 100.0%; height: 100.0%;">Nablus to Qalqilya: 22.70 km</div>`)[0];
+                popup_3c1463435d6b638fbd1b3fe09d8a3df2.setContent(html_82f0793cb958c5b04f60450d5440c789);
+            
+        
+
+        poly_line_011873709b287cbf07f4e614ec55ca06.bindPopup(popup_3c1463435d6b638fbd1b3fe09d8a3df2)
+        ;
+
+        
+    
+    
+            var poly_line_7fff9f763d9d0f143d226d8b091a849d = L.polyline(
+                [[32.2215, 35.2544], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1ca94218e7f99962ed4f52df91bfd9d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9e504e2ffd37f7c565e494e7ec51d64 = $(`<div id="html_d9e504e2ffd37f7c565e494e7ec51d64" style="width: 100.0%; height: 100.0%;">Nablus to Tulkarm: 24.32 km</div>`)[0];
+                popup_1ca94218e7f99962ed4f52df91bfd9d7.setContent(html_d9e504e2ffd37f7c565e494e7ec51d64);
+            
+        
+
+        poly_line_7fff9f763d9d0f143d226d8b091a849d.bindPopup(popup_1ca94218e7f99962ed4f52df91bfd9d7)
+        ;
+
+        
+    
+    
+            var poly_line_f35820b10e1f7d2db191f23ab91cf10c = L.polyline(
+                [[32.2215, 35.2544], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_72ff68d2e333ca6ba1d99f737a8e186c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec5040d3fd7e68312c43c9888ede2c5a = $(`<div id="html_ec5040d3fd7e68312c43c9888ede2c5a" style="width: 100.0%; height: 100.0%;">Nablus to Khan Yunis: 132.49 km</div>`)[0];
+                popup_72ff68d2e333ca6ba1d99f737a8e186c.setContent(html_ec5040d3fd7e68312c43c9888ede2c5a);
+            
+        
+
+        poly_line_f35820b10e1f7d2db191f23ab91cf10c.bindPopup(popup_72ff68d2e333ca6ba1d99f737a8e186c)
+        ;
+
+        
+    
+    
+            var poly_line_cebf6f48233f1f71a7c997350841b324 = L.polyline(
+                [[32.2215, 35.2544], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_80b84c524ef9905a2825a02d2cf239ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_410eadfc0bcb5d74176836d67337ee7f = $(`<div id="html_410eadfc0bcb5d74176836d67337ee7f" style="width: 100.0%; height: 100.0%;">Nablus to Deir al-Balah: 123.27 km</div>`)[0];
+                popup_80b84c524ef9905a2825a02d2cf239ce.setContent(html_410eadfc0bcb5d74176836d67337ee7f);
+            
+        
+
+        poly_line_cebf6f48233f1f71a7c997350841b324.bindPopup(popup_80b84c524ef9905a2825a02d2cf239ce)
+        ;
+
+        
+    
+    
+            var poly_line_e4a1f8b1b890023edc3ed0cf2a64cd34 = L.polyline(
+                [[32.2215, 35.2544], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_5d5826f6a1cb62ee0039ed6cff68fc05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_000972495d11391a456262c2f014d2b8 = $(`<div id="html_000972495d11391a456262c2f014d2b8" style="width: 100.0%; height: 100.0%;">Nablus to Maghar: 4.61 km</div>`)[0];
+                popup_5d5826f6a1cb62ee0039ed6cff68fc05.setContent(html_000972495d11391a456262c2f014d2b8);
+            
+        
+
+        poly_line_e4a1f8b1b890023edc3ed0cf2a64cd34.bindPopup(popup_5d5826f6a1cb62ee0039ed6cff68fc05)
+        ;
+
+        
+    
+    
+            var poly_line_d897ba0cbd663d2373cc4c6e59e5a6f3 = L.polyline(
+                [[32.2215, 35.2544], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_102fdf4d5cdd23307f4997b1ccdc59a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b313765824c65ff734f0125f634fef98 = $(`<div id="html_b313765824c65ff734f0125f634fef98" style="width: 100.0%; height: 100.0%;">Nablus to Dayr al-Ghusun: 19.97 km</div>`)[0];
+                popup_102fdf4d5cdd23307f4997b1ccdc59a2.setContent(html_b313765824c65ff734f0125f634fef98);
+            
+        
+
+        poly_line_d897ba0cbd663d2373cc4c6e59e5a6f3.bindPopup(popup_102fdf4d5cdd23307f4997b1ccdc59a2)
+        ;
+
+        
+    
+    
+            var poly_line_0146d47d62e21fe90f620a68e48401ab = L.polyline(
+                [[32.2215, 35.2544], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_759a3b13456fb1af9bc50783e60deaf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc1ca0d6891e56f99dc15b0ccd709624 = $(`<div id="html_dc1ca0d6891e56f99dc15b0ccd709624" style="width: 100.0%; height: 100.0%;">Nablus to Anabta: 21.42 km</div>`)[0];
+                popup_759a3b13456fb1af9bc50783e60deaf5.setContent(html_dc1ca0d6891e56f99dc15b0ccd709624);
+            
+        
+
+        poly_line_0146d47d62e21fe90f620a68e48401ab.bindPopup(popup_759a3b13456fb1af9bc50783e60deaf5)
+        ;
+
+        
+    
+    
+            var poly_line_d4e5ab19aca2a9757127a5023643f649 = L.polyline(
+                [[32.2215, 35.2544], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_6699b847eb5f0d3a5c9821c69cb65a62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56d3c2748efadf11ef71305cbd4d0f0a = $(`<div id="html_56d3c2748efadf11ef71305cbd4d0f0a" style="width: 100.0%; height: 100.0%;">Nablus to Atara: 33.98 km</div>`)[0];
+                popup_6699b847eb5f0d3a5c9821c69cb65a62.setContent(html_56d3c2748efadf11ef71305cbd4d0f0a);
+            
+        
+
+        poly_line_d4e5ab19aca2a9757127a5023643f649.bindPopup(popup_6699b847eb5f0d3a5c9821c69cb65a62)
+        ;
+
+        
+    
+    
+            var poly_line_8a782a31566818fcf0137fc9db2533ce = L.polyline(
+                [[32.2215, 35.2544], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c68265fd3292f5af44f11be00b6b303e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94c3d987aae9056e5303a040648cce92 = $(`<div id="html_94c3d987aae9056e5303a040648cce92" style="width: 100.0%; height: 100.0%;">Nablus to Azoun: 20.44 km</div>`)[0];
+                popup_c68265fd3292f5af44f11be00b6b303e.setContent(html_94c3d987aae9056e5303a040648cce92);
+            
+        
+
+        poly_line_8a782a31566818fcf0137fc9db2533ce.bindPopup(popup_c68265fd3292f5af44f11be00b6b303e)
+        ;
+
+        
+    
+    
+            var poly_line_39b61ca1f1f3ba5c3323e5b61e22935b = L.polyline(
+                [[32.2215, 35.2544], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3b3aface7c15872dfb0e5147732438c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9e3b39c91ebeef86e0cc8c0726c518 = $(`<div id="html_0b9e3b39c91ebeef86e0cc8c0726c518" style="width: 100.0%; height: 100.0%;">Nablus to Beit Sira: 36.80 km</div>`)[0];
+                popup_3b3aface7c15872dfb0e5147732438c6.setContent(html_0b9e3b39c91ebeef86e0cc8c0726c518);
+            
+        
+
+        poly_line_39b61ca1f1f3ba5c3323e5b61e22935b.bindPopup(popup_3b3aface7c15872dfb0e5147732438c6)
+        ;
+
+        
+    
+    
+            var poly_line_ee437b9cc514b3162aa9860ebbc873bc = L.polyline(
+                [[31.5355, 35.094], [32.4114, 35.2939]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d929e08edabe920bdba737dbd5d12312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae1547f404293db9e8570aec73efcae = $(`<div id="html_5ae1547f404293db9e8570aec73efcae" style="width: 100.0%; height: 100.0%;">Hebron to Jenin: 98.95 km</div>`)[0];
+                popup_d929e08edabe920bdba737dbd5d12312.setContent(html_5ae1547f404293db9e8570aec73efcae);
+            
+        
+
+        poly_line_ee437b9cc514b3162aa9860ebbc873bc.bindPopup(popup_d929e08edabe920bdba737dbd5d12312)
+        ;
+
+        
+    
+    
+            var poly_line_3f6da75b25cfc01cbe245ec4f49ac23a = L.polyline(
+                [[31.5355, 35.094], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d4c78380436cdef6c378a518a5c821a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_843fd19e760047f54586913ca2029d93 = $(`<div id="html_843fd19e760047f54586913ca2029d93" style="width: 100.0%; height: 100.0%;">Hebron to Gaza: 59.71 km</div>`)[0];
+                popup_d4c78380436cdef6c378a518a5c821a7.setContent(html_843fd19e760047f54586913ca2029d93);
+            
+        
+
+        poly_line_3f6da75b25cfc01cbe245ec4f49ac23a.bindPopup(popup_d4c78380436cdef6c378a518a5c821a7)
+        ;
+
+        
+    
+    
+            var poly_line_f77c217cb039b25e915fc00bda3b7bc4 = L.polyline(
+                [[31.5355, 35.094], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_364d650afabf429689f5ea621a92acb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc3758fd80876e328ef15143df842074 = $(`<div id="html_cc3758fd80876e328ef15143df842074" style="width: 100.0%; height: 100.0%;">Hebron to Rafah: 82.63 km</div>`)[0];
+                popup_364d650afabf429689f5ea621a92acb8.setContent(html_cc3758fd80876e328ef15143df842074);
+            
+        
+
+        poly_line_f77c217cb039b25e915fc00bda3b7bc4.bindPopup(popup_364d650afabf429689f5ea621a92acb8)
+        ;
+
+        
+    
+    
+            var poly_line_88835b048d3b3dadbd265ab311bf9972 = L.polyline(
+                [[31.5355, 35.094], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f5aea8640208e917b7ee6d68c3f256f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc3f69100b15fa9b4826b7730bc80f89 = $(`<div id="html_fc3f69100b15fa9b4826b7730bc80f89" style="width: 100.0%; height: 100.0%;">Hebron to Qalqilya: 61.53 km</div>`)[0];
+                popup_f5aea8640208e917b7ee6d68c3f256f8.setContent(html_fc3f69100b15fa9b4826b7730bc80f89);
+            
+        
+
+        poly_line_88835b048d3b3dadbd265ab311bf9972.bindPopup(popup_f5aea8640208e917b7ee6d68c3f256f8)
+        ;
+
+        
+    
+    
+            var poly_line_1334d045299284d501a0e4de2a66cbf3 = L.polyline(
+                [[31.5355, 35.094], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1abeab38eba0669a4186b83b929941a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef5cd03ceff576552ef5a856ec10307e = $(`<div id="html_ef5cd03ceff576552ef5a856ec10307e" style="width: 100.0%; height: 100.0%;">Hebron to Tulkarm: 58.17 km</div>`)[0];
+                popup_1abeab38eba0669a4186b83b929941a0.setContent(html_ef5cd03ceff576552ef5a856ec10307e);
+            
+        
+
+        poly_line_1334d045299284d501a0e4de2a66cbf3.bindPopup(popup_1abeab38eba0669a4186b83b929941a0)
+        ;
+
+        
+    
+    
+            var poly_line_ab1b9654645c67f4c4ac10110a0c2296 = L.polyline(
+                [[31.5355, 35.094], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_90effbce8c7e8b736d136315004b0f7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_414051ea221fbda8fb05ac5e2ddbe5b7 = $(`<div id="html_414051ea221fbda8fb05ac5e2ddbe5b7" style="width: 100.0%; height: 100.0%;">Hebron to Khan Yunis: 77.62 km</div>`)[0];
+                popup_90effbce8c7e8b736d136315004b0f7a.setContent(html_414051ea221fbda8fb05ac5e2ddbe5b7);
+            
+        
+
+        poly_line_ab1b9654645c67f4c4ac10110a0c2296.bindPopup(popup_90effbce8c7e8b736d136315004b0f7a)
+        ;
+
+        
+    
+    
+            var poly_line_b67dcefdc8588c8b7f7e9144972329a3 = L.polyline(
+                [[31.5355, 35.094], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b306f29bf76b5ea78c9b9c57af5a088f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a768c3add6c4d5ff47f285604f7c21 = $(`<div id="html_69a768c3add6c4d5ff47f285604f7c21" style="width: 100.0%; height: 100.0%;">Hebron to Deir al-Balah: 72.59 km</div>`)[0];
+                popup_b306f29bf76b5ea78c9b9c57af5a088f.setContent(html_69a768c3add6c4d5ff47f285604f7c21);
+            
+        
+
+        poly_line_b67dcefdc8588c8b7f7e9144972329a3.bindPopup(popup_b306f29bf76b5ea78c9b9c57af5a088f)
+        ;
+
+        
+    
+    
+            var poly_line_ee7c617bde4147a3581a71ccb9bfe9fe = L.polyline(
+                [[31.5355, 35.094], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_361463af478dfa5e67c91ebbf0f33912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64124a2cefb991a8e162454dca56304f = $(`<div id="html_64124a2cefb991a8e162454dca56304f" style="width: 100.0%; height: 100.0%;">Hebron to Maghar: 81.37 km</div>`)[0];
+                popup_361463af478dfa5e67c91ebbf0f33912.setContent(html_64124a2cefb991a8e162454dca56304f);
+            
+        
+
+        poly_line_ee7c617bde4147a3581a71ccb9bfe9fe.bindPopup(popup_361463af478dfa5e67c91ebbf0f33912)
+        ;
+
+        
+    
+    
+            var poly_line_3657824e1f369c00709b29f16bfd3d8f = L.polyline(
+                [[31.5355, 35.094], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3a9aac07a3a81d0abdf2ca9615903598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0a6fe8d9e93a02d650d09593b6853ce = $(`<div id="html_d0a6fe8d9e93a02d650d09593b6853ce" style="width: 100.0%; height: 100.0%;">Hebron to Dayr al-Ghusun: 59.43 km</div>`)[0];
+                popup_3a9aac07a3a81d0abdf2ca9615903598.setContent(html_d0a6fe8d9e93a02d650d09593b6853ce);
+            
+        
+
+        poly_line_3657824e1f369c00709b29f16bfd3d8f.bindPopup(popup_3a9aac07a3a81d0abdf2ca9615903598)
+        ;
+
+        
+    
+    
+            var poly_line_c1ce3b429ac7544b3aec93c027bc9aba = L.polyline(
+                [[31.5355, 35.094], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4e0e0f5613d5d0b138d3657493b92939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f3bb603fac36cb90c10b1df077e1c8 = $(`<div id="html_27f3bb603fac36cb90c10b1df077e1c8" style="width: 100.0%; height: 100.0%;">Hebron to Anabta: 57.30 km</div>`)[0];
+                popup_4e0e0f5613d5d0b138d3657493b92939.setContent(html_27f3bb603fac36cb90c10b1df077e1c8);
+            
+        
+
+        poly_line_c1ce3b429ac7544b3aec93c027bc9aba.bindPopup(popup_4e0e0f5613d5d0b138d3657493b92939)
+        ;
+
+        
+    
+    
+            var poly_line_30898db0a5f3f49566aae0a9d40d1236 = L.polyline(
+                [[31.5355, 35.094], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_8303af32b7fb4b1d988ac08b6618712a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0acafffb85ac44183bfb5d51f76a577e = $(`<div id="html_0acafffb85ac44183bfb5d51f76a577e" style="width: 100.0%; height: 100.0%;">Hebron to Atara: 43.59 km</div>`)[0];
+                popup_8303af32b7fb4b1d988ac08b6618712a.setContent(html_0acafffb85ac44183bfb5d51f76a577e);
+            
+        
+
+        poly_line_30898db0a5f3f49566aae0a9d40d1236.bindPopup(popup_8303af32b7fb4b1d988ac08b6618712a)
+        ;
+
+        
+    
+    
+            var poly_line_1cdefb5c00a2f49b7a1ec342a272d610 = L.polyline(
+                [[31.5355, 35.094], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c2a998f76d4045e3271f413f904149f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8cd574f92326b98267c40655282dbb = $(`<div id="html_5a8cd574f92326b98267c40655282dbb" style="width: 100.0%; height: 100.0%;">Hebron to Azoun: 58.40 km</div>`)[0];
+                popup_c2a998f76d4045e3271f413f904149f4.setContent(html_5a8cd574f92326b98267c40655282dbb);
+            
+        
+
+        poly_line_1cdefb5c00a2f49b7a1ec342a272d610.bindPopup(popup_c2a998f76d4045e3271f413f904149f4)
+        ;
+
+        
+    
+    
+            var poly_line_c61490d6e2eaaa6f3007ab1d2cccc9be = L.polyline(
+                [[31.5355, 35.094], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_bdf897ed33509758a162ad98bbc64632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7562961c5c4e2548b68475f7f09d551 = $(`<div id="html_d7562961c5c4e2548b68475f7f09d551" style="width: 100.0%; height: 100.0%;">Hebron to Beit Sira: 41.60 km</div>`)[0];
+                popup_bdf897ed33509758a162ad98bbc64632.setContent(html_d7562961c5c4e2548b68475f7f09d551);
+            
+        
+
+        poly_line_c61490d6e2eaaa6f3007ab1d2cccc9be.bindPopup(popup_bdf897ed33509758a162ad98bbc64632)
+        ;
+
+        
+    
+    
+            var poly_line_5bc90444161a81f3b6b89093036694f3 = L.polyline(
+                [[32.4114, 35.2939], [31.5, 34.4667]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_483ebcc09e311bd3a57ad08c7c91331f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d93bdecc0d39f264158766af4d0b03d = $(`<div id="html_3d93bdecc0d39f264158766af4d0b03d" style="width: 100.0%; height: 100.0%;">Jenin to Gaza: 127.78 km</div>`)[0];
+                popup_483ebcc09e311bd3a57ad08c7c91331f.setContent(html_3d93bdecc0d39f264158766af4d0b03d);
+            
+        
+
+        poly_line_5bc90444161a81f3b6b89093036694f3.bindPopup(popup_483ebcc09e311bd3a57ad08c7c91331f)
+        ;
+
+        
+    
+    
+            var poly_line_a01f61078f5718e76916cec82004a788 = L.polyline(
+                [[32.4114, 35.2939], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d409a3c7bae2705fa37304fe9181ad64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62bcd99f0c4dfe7398e88e31e3ebcc3a = $(`<div id="html_62bcd99f0c4dfe7398e88e31e3ebcc3a" style="width: 100.0%; height: 100.0%;">Jenin to Rafah: 156.98 km</div>`)[0];
+                popup_d409a3c7bae2705fa37304fe9181ad64.setContent(html_62bcd99f0c4dfe7398e88e31e3ebcc3a);
+            
+        
+
+        poly_line_a01f61078f5718e76916cec82004a788.bindPopup(popup_d409a3c7bae2705fa37304fe9181ad64)
+        ;
+
+        
+    
+    
+            var poly_line_183666f1ce9e86fb3d160c98e7653450 = L.polyline(
+                [[32.4114, 35.2939], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_63031b46063958fc37ba4c9950e16b6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fb8a3dce72fb07ca1cfa9ed2a511a0e = $(`<div id="html_0fb8a3dce72fb07ca1cfa9ed2a511a0e" style="width: 100.0%; height: 100.0%;">Jenin to Qalqilya: 41.42 km</div>`)[0];
+                popup_63031b46063958fc37ba4c9950e16b6d.setContent(html_0fb8a3dce72fb07ca1cfa9ed2a511a0e);
+            
+        
+
+        poly_line_183666f1ce9e86fb3d160c98e7653450.bindPopup(popup_63031b46063958fc37ba4c9950e16b6d)
+        ;
+
+        
+    
+    
+            var poly_line_7dd9408e9193cc2f9d4ce5b444172d86 = L.polyline(
+                [[32.4114, 35.2939], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c5daadd451db81916e8d3a3bab6e9e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddbdff293673b5b7b2733fc0ed28412c = $(`<div id="html_ddbdff293673b5b7b2733fc0ed28412c" style="width: 100.0%; height: 100.0%;">Jenin to Tulkarm: 43.87 km</div>`)[0];
+                popup_c5daadd451db81916e8d3a3bab6e9e64.setContent(html_ddbdff293673b5b7b2733fc0ed28412c);
+            
+        
+
+        poly_line_7dd9408e9193cc2f9d4ce5b444172d86.bindPopup(popup_c5daadd451db81916e8d3a3bab6e9e64)
+        ;
+
+        
+    
+    
+            var poly_line_295439de920a3bc56026d5df74368a6a = L.polyline(
+                [[32.4114, 35.2939], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_780d4036f18a39b80afcb3bf2fa19893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fb8fd971099715be30567ed7dce4d85 = $(`<div id="html_9fb8fd971099715be30567ed7dce4d85" style="width: 100.0%; height: 100.0%;">Jenin to Khan Yunis: 150.93 km</div>`)[0];
+                popup_780d4036f18a39b80afcb3bf2fa19893.setContent(html_9fb8fd971099715be30567ed7dce4d85);
+            
+        
+
+        poly_line_295439de920a3bc56026d5df74368a6a.bindPopup(popup_780d4036f18a39b80afcb3bf2fa19893)
+        ;
+
+        
+    
+    
+            var poly_line_1248e83497dbdc7796f06a46c755cc9d = L.polyline(
+                [[32.4114, 35.2939], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_8df1f932f6109594a4982e289b2c9d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0564d84e389960a73795405feaf9277a = $(`<div id="html_0564d84e389960a73795405feaf9277a" style="width: 100.0%; height: 100.0%;">Jenin to Deir al-Balah: 141.35 km</div>`)[0];
+                popup_8df1f932f6109594a4982e289b2c9d17.setContent(html_0564d84e389960a73795405feaf9277a);
+            
+        
+
+        poly_line_1248e83497dbdc7796f06a46c755cc9d.bindPopup(popup_8df1f932f6109594a4982e289b2c9d17)
+        ;
+
+        
+    
+    
+            var poly_line_73fd4a336414aea6c7677a634d11cdb8 = L.polyline(
+                [[32.4114, 35.2939], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_a5c2f9bb585cc2fd2f88090d3c6dee43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad99f97a6d1d8b6b36d8ac20a4ffa6f4 = $(`<div id="html_ad99f97a6d1d8b6b36d8ac20a4ffa6f4" style="width: 100.0%; height: 100.0%;">Jenin to Maghar: 17.90 km</div>`)[0];
+                popup_a5c2f9bb585cc2fd2f88090d3c6dee43.setContent(html_ad99f97a6d1d8b6b36d8ac20a4ffa6f4);
+            
+        
+
+        poly_line_73fd4a336414aea6c7677a634d11cdb8.bindPopup(popup_a5c2f9bb585cc2fd2f88090d3c6dee43)
+        ;
+
+        
+    
+    
+            var poly_line_7ce16018bfd6b64d80f6a0fb0f9b577e = L.polyline(
+                [[32.4114, 35.2939], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_944492d1c4c03c7a5eb17f5961578ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcc77f1e4c4ab66a761b9b5703d79766 = $(`<div id="html_fcc77f1e4c4ab66a761b9b5703d79766" style="width: 100.0%; height: 100.0%;">Jenin to Dayr al-Ghusun: 40.54 km</div>`)[0];
+                popup_944492d1c4c03c7a5eb17f5961578ce0.setContent(html_fcc77f1e4c4ab66a761b9b5703d79766);
+            
+        
+
+        poly_line_7ce16018bfd6b64d80f6a0fb0f9b577e.bindPopup(popup_944492d1c4c03c7a5eb17f5961578ce0)
+        ;
+
+        
+    
+    
+            var poly_line_408ee268b1c674fbb5b18e2cba64403f = L.polyline(
+                [[32.4114, 35.2939], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_65e013530613f143adc649e640523f2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2ed87284c5c424677243a7364b0f104 = $(`<div id="html_d2ed87284c5c424677243a7364b0f104" style="width: 100.0%; height: 100.0%;">Jenin to Anabta: 42.31 km</div>`)[0];
+                popup_65e013530613f143adc649e640523f2a.setContent(html_d2ed87284c5c424677243a7364b0f104);
+            
+        
+
+        poly_line_408ee268b1c674fbb5b18e2cba64403f.bindPopup(popup_65e013530613f143adc649e640523f2a)
+        ;
+
+        
+    
+    
+            var poly_line_5e63a83f34566b85d19670cd422d3aba = L.polyline(
+                [[32.4114, 35.2939], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ce6b5f5176c2be6c8173146a8e9cffda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c62c293ad71093661e84d8c146a614c = $(`<div id="html_4c62c293ad71093661e84d8c146a614c" style="width: 100.0%; height: 100.0%;">Jenin to Atara: 55.37 km</div>`)[0];
+                popup_ce6b5f5176c2be6c8173146a8e9cffda.setContent(html_4c62c293ad71093661e84d8c146a614c);
+            
+        
+
+        poly_line_5e63a83f34566b85d19670cd422d3aba.bindPopup(popup_ce6b5f5176c2be6c8173146a8e9cffda)
+        ;
+
+        
+    
+    
+            var poly_line_1e5d142b40fd16576b1e633ba8f4210c = L.polyline(
+                [[32.4114, 35.2939], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f8963f0cef3a2a102df2f58765830611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_409a612a297f3e510c1045f99932a46d = $(`<div id="html_409a612a297f3e510c1045f99932a46d" style="width: 100.0%; height: 100.0%;">Jenin to Azoun: 41.26 km</div>`)[0];
+                popup_f8963f0cef3a2a102df2f58765830611.setContent(html_409a612a297f3e510c1045f99932a46d);
+            
+        
+
+        poly_line_1e5d142b40fd16576b1e633ba8f4210c.bindPopup(popup_f8963f0cef3a2a102df2f58765830611)
+        ;
+
+        
+    
+    
+            var poly_line_bd4df2f37372017e22399ab494c24d62 = L.polyline(
+                [[32.4114, 35.2939], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_28d6afb8f32b578cd0c5bd2e608ffe5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92426927ad6465e0802e1aa73fc121ff = $(`<div id="html_92426927ad6465e0802e1aa73fc121ff" style="width: 100.0%; height: 100.0%;">Jenin to Beit Sira: 57.97 km</div>`)[0];
+                popup_28d6afb8f32b578cd0c5bd2e608ffe5a.setContent(html_92426927ad6465e0802e1aa73fc121ff);
+            
+        
+
+        poly_line_bd4df2f37372017e22399ab494c24d62.bindPopup(popup_28d6afb8f32b578cd0c5bd2e608ffe5a)
+        ;
+
+        
+    
+    
+            var poly_line_d7c9db07c2e2a1882a1d8b6e137288ed = L.polyline(
+                [[31.5, 34.4667], [31.2972, 34.2706]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c2f8c477d2a301a4d40f1d89a45f69f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4750daa5bf7d9af8752b37c1f685fcc = $(`<div id="html_e4750daa5bf7d9af8752b37c1f685fcc" style="width: 100.0%; height: 100.0%;">Gaza to Rafah: 29.21 km</div>`)[0];
+                popup_c2f8c477d2a301a4d40f1d89a45f69f8.setContent(html_e4750daa5bf7d9af8752b37c1f685fcc);
+            
+        
+
+        poly_line_d7c9db07c2e2a1882a1d8b6e137288ed.bindPopup(popup_c2f8c477d2a301a4d40f1d89a45f69f8)
+        ;
+
+        
+    
+    
+            var poly_line_34cfa1fe280dc09b478d523a7cfa2476 = L.polyline(
+                [[31.5, 34.4667], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_8b3ff441754c8c63b21795f8210e3251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5583e3d8fbe1b7b7f660bc0b9c50627 = $(`<div id="html_d5583e3d8fbe1b7b7f660bc0b9c50627" style="width: 100.0%; height: 100.0%;">Gaza to Qalqilya: 86.86 km</div>`)[0];
+                popup_8b3ff441754c8c63b21795f8210e3251.setContent(html_d5583e3d8fbe1b7b7f660bc0b9c50627);
+            
+        
+
+        poly_line_34cfa1fe280dc09b478d523a7cfa2476.bindPopup(popup_8b3ff441754c8c63b21795f8210e3251)
+        ;
+
+        
+    
+    
+            var poly_line_7c19367f4940bfeeda0c86095bf51a39 = L.polyline(
+                [[31.5, 34.4667], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_615a390d7321a2073bff3472bc27afb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf34e99c682db8edaa99d6d9b007e647 = $(`<div id="html_bf34e99c682db8edaa99d6d9b007e647" style="width: 100.0%; height: 100.0%;">Gaza to Tulkarm: 85.03 km</div>`)[0];
+                popup_615a390d7321a2073bff3472bc27afb1.setContent(html_bf34e99c682db8edaa99d6d9b007e647);
+            
+        
+
+        poly_line_7c19367f4940bfeeda0c86095bf51a39.bindPopup(popup_615a390d7321a2073bff3472bc27afb1)
+        ;
+
+        
+    
+    
+            var poly_line_13a174c303dad268b0409e9b06a79d88 = L.polyline(
+                [[31.5, 34.4667], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_041a6f409c5e8d32fe7cd591118b7ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccfd79a9d0a57eb066dbf5f29bc20c05 = $(`<div id="html_ccfd79a9d0a57eb066dbf5f29bc20c05" style="width: 100.0%; height: 100.0%;">Gaza to Khan Yunis: 23.17 km</div>`)[0];
+                popup_041a6f409c5e8d32fe7cd591118b7ba1.setContent(html_ccfd79a9d0a57eb066dbf5f29bc20c05);
+            
+        
+
+        poly_line_13a174c303dad268b0409e9b06a79d88.bindPopup(popup_041a6f409c5e8d32fe7cd591118b7ba1)
+        ;
+
+        
+    
+    
+            var poly_line_76189e5514fb45ba9710da2d2398d13d = L.polyline(
+                [[31.5, 34.4667], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ad2588895262a34c52f1f1a8f120c705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbf74b20b380d2307ce01d10537b04aa = $(`<div id="html_bbf74b20b380d2307ce01d10537b04aa" style="width: 100.0%; height: 100.0%;">Gaza to Deir al-Balah: 14.33 km</div>`)[0];
+                popup_ad2588895262a34c52f1f1a8f120c705.setContent(html_bbf74b20b380d2307ce01d10537b04aa);
+            
+        
+
+        poly_line_76189e5514fb45ba9710da2d2398d13d.bindPopup(popup_ad2588895262a34c52f1f1a8f120c705)
+        ;
+
+        
+    
+    
+            var poly_line_ae4339743de63a06542bfdf6ad5baaaa = L.polyline(
+                [[31.5, 34.4667], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_6c4a5a7ae0f0c7aed899df7c6243633f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f94bb53c21d8fae5001a87b56df14db = $(`<div id="html_0f94bb53c21d8fae5001a87b56df14db" style="width: 100.0%; height: 100.0%;">Gaza to Maghar: 113.95 km</div>`)[0];
+                popup_6c4a5a7ae0f0c7aed899df7c6243633f.setContent(html_0f94bb53c21d8fae5001a87b56df14db);
+            
+        
+
+        poly_line_ae4339743de63a06542bfdf6ad5baaaa.bindPopup(popup_6c4a5a7ae0f0c7aed899df7c6243633f)
+        ;
+
+        
+    
+    
+            var poly_line_aae613c53c41808705b3a1f3eba0daa1 = L.polyline(
+                [[31.5, 34.4667], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3172b6184acfacc700074c570b74d246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8576dc3899725ce572afa17e1ec0049d = $(`<div id="html_8576dc3899725ce572afa17e1ec0049d" style="width: 100.0%; height: 100.0%;">Gaza to Dayr al-Ghusun: 89.78 km</div>`)[0];
+                popup_3172b6184acfacc700074c570b74d246.setContent(html_8576dc3899725ce572afa17e1ec0049d);
+            
+        
+
+        poly_line_aae613c53c41808705b3a1f3eba0daa1.bindPopup(popup_3172b6184acfacc700074c570b74d246)
+        ;
+
+        
+    
+    
+            var poly_line_0e4221d6522daf816ad3356b981649e8 = L.polyline(
+                [[31.5, 34.4667], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_cd55d31cd9cfeb34c62de6b8d30dc9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ec8b2fd1f629330edb47996d70895f = $(`<div id="html_84ec8b2fd1f629330edb47996d70895f" style="width: 100.0%; height: 100.0%;">Gaza to Anabta: 88.93 km</div>`)[0];
+                popup_cd55d31cd9cfeb34c62de6b8d30dc9a1.setContent(html_84ec8b2fd1f629330edb47996d70895f);
+            
+        
+
+        poly_line_0e4221d6522daf816ad3356b981649e8.bindPopup(popup_cd55d31cd9cfeb34c62de6b8d30dc9a1)
+        ;
+
+        
+    
+    
+            var poly_line_aebd9fe565dcdde4db123ccf0cb823b6 = L.polyline(
+                [[31.5, 34.4667], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ae7872060702b6f112bcdb85bdf18e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efeba75dbefba458466f60a850d09eea = $(`<div id="html_efeba75dbefba458466f60a850d09eea" style="width: 100.0%; height: 100.0%;">Gaza to Atara: 82.88 km</div>`)[0];
+                popup_ae7872060702b6f112bcdb85bdf18e36.setContent(html_efeba75dbefba458466f60a850d09eea);
+            
+        
+
+        poly_line_aebd9fe565dcdde4db123ccf0cb823b6.bindPopup(popup_ae7872060702b6f112bcdb85bdf18e36)
+        ;
+
+        
+    
+    
+            var poly_line_6d8a3b6fbf031075a9f05743fba7b7ca = L.polyline(
+                [[31.5, 34.4667], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d0cc32b3f2f362f45aea1dc7a2a2b1b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77ca20a326ee094546ad72395954bbeb = $(`<div id="html_77ca20a326ee094546ad72395954bbeb" style="width: 100.0%; height: 100.0%;">Gaza to Azoun: 89.69 km</div>`)[0];
+                popup_d0cc32b3f2f362f45aea1dc7a2a2b1b2.setContent(html_77ca20a326ee094546ad72395954bbeb);
+            
+        
+
+        poly_line_6d8a3b6fbf031075a9f05743fba7b7ca.bindPopup(popup_d0cc32b3f2f362f45aea1dc7a2a2b1b2)
+        ;
+
+        
+    
+    
+            var poly_line_cde10e41ce4e52171624ade4e38702ce = L.polyline(
+                [[31.5, 34.4667], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_850e71f3a9e7a906e0caf34ae4ac28ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b25d8245353e96e108d4ec3ba2e4744b = $(`<div id="html_b25d8245353e96e108d4ec3ba2e4744b" style="width: 100.0%; height: 100.0%;">Gaza to Beit Sira: 76.82 km</div>`)[0];
+                popup_850e71f3a9e7a906e0caf34ae4ac28ee.setContent(html_b25d8245353e96e108d4ec3ba2e4744b);
+            
+        
+
+        poly_line_cde10e41ce4e52171624ade4e38702ce.bindPopup(popup_850e71f3a9e7a906e0caf34ae4ac28ee)
+        ;
+
+        
+    
+    
+            var poly_line_36cb55ccb99293835189ed6614fc0d89 = L.polyline(
+                [[31.2972, 34.2706], [32.09, 35.07]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f788f49c01e2aa1a53168bcd4fe2a4ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1271119208f4f8f3ccdd3341766e3252 = $(`<div id="html_1271119208f4f8f3ccdd3341766e3252" style="width: 100.0%; height: 100.0%;">Rafah to Qalqilya: 116.07 km</div>`)[0];
+                popup_f788f49c01e2aa1a53168bcd4fe2a4ac.setContent(html_1271119208f4f8f3ccdd3341766e3252);
+            
+        
+
+        poly_line_36cb55ccb99293835189ed6614fc0d89.bindPopup(popup_f788f49c01e2aa1a53168bcd4fe2a4ac)
+        ;
+
+        
+    
+    
+            var poly_line_7eb9b580971aa34beb874dd68f396e59 = L.polyline(
+                [[31.2972, 34.2706], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_5547f15e8f967d77a16a70408e928705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5e4cc05d93cb6addb53f135422cd130 = $(`<div id="html_a5e4cc05d93cb6addb53f135422cd130" style="width: 100.0%; height: 100.0%;">Rafah to Tulkarm: 114.21 km</div>`)[0];
+                popup_5547f15e8f967d77a16a70408e928705.setContent(html_a5e4cc05d93cb6addb53f135422cd130);
+            
+        
+
+        poly_line_7eb9b580971aa34beb874dd68f396e59.bindPopup(popup_5547f15e8f967d77a16a70408e928705)
+        ;
+
+        
+    
+    
+            var poly_line_9b9f33501069d3b008ad3cf9817964b4 = L.polyline(
+                [[31.2972, 34.2706], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_983d3ab7f05f34f71b15e68cbeebc84d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdaf90e578216bffb553de93db400a38 = $(`<div id="html_fdaf90e578216bffb553de93db400a38" style="width: 100.0%; height: 100.0%;">Rafah to Khan Yunis: 6.05 km</div>`)[0];
+                popup_983d3ab7f05f34f71b15e68cbeebc84d.setContent(html_fdaf90e578216bffb553de93db400a38);
+            
+        
+
+        poly_line_9b9f33501069d3b008ad3cf9817964b4.bindPopup(popup_983d3ab7f05f34f71b15e68cbeebc84d)
+        ;
+
+        
+    
+    
+            var poly_line_3ed2c50cd88f2a585ca5064b181ba0c1 = L.polyline(
+                [[31.2972, 34.2706], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b788c99e1a1247528ad36608edb76276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8555c8e951cb3d711025700321f6a78 = $(`<div id="html_e8555c8e951cb3d711025700321f6a78" style="width: 100.0%; height: 100.0%;">Rafah to Deir al-Balah: 16.14 km</div>`)[0];
+                popup_b788c99e1a1247528ad36608edb76276.setContent(html_e8555c8e951cb3d711025700321f6a78);
+            
+        
+
+        poly_line_3ed2c50cd88f2a585ca5064b181ba0c1.bindPopup(popup_b788c99e1a1247528ad36608edb76276)
+        ;
+
+        
+    
+    
+            var poly_line_3d920db4780b430bf42a0c8d58fff541 = L.polyline(
+                [[31.2972, 34.2706], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3d89afdc9048ca08b848e6313966260d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca45590fb05d474e05a9ad7862136e97 = $(`<div id="html_ca45590fb05d474e05a9ad7862136e97" style="width: 100.0%; height: 100.0%;">Rafah to Maghar: 143.13 km</div>`)[0];
+                popup_3d89afdc9048ca08b848e6313966260d.setContent(html_ca45590fb05d474e05a9ad7862136e97);
+            
+        
+
+        poly_line_3d920db4780b430bf42a0c8d58fff541.bindPopup(popup_3d89afdc9048ca08b848e6313966260d)
+        ;
+
+        
+    
+    
+            var poly_line_bac6a5d24eb5eb1d23d5e8b35c0d640a = L.polyline(
+                [[31.2972, 34.2706], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_832a1fe73c5dbe70cd4906d7d491bfba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c45e12ab6013bdc48c7af9e0f53d595 = $(`<div id="html_6c45e12ab6013bdc48c7af9e0f53d595" style="width: 100.0%; height: 100.0%;">Rafah to Dayr al-Ghusun: 118.90 km</div>`)[0];
+                popup_832a1fe73c5dbe70cd4906d7d491bfba.setContent(html_6c45e12ab6013bdc48c7af9e0f53d595);
+            
+        
+
+        poly_line_bac6a5d24eb5eb1d23d5e8b35c0d640a.bindPopup(popup_832a1fe73c5dbe70cd4906d7d491bfba)
+        ;
+
+        
+    
+    
+            var poly_line_9e5cfe3991ff6782b9398850e293d54a = L.polyline(
+                [[31.2972, 34.2706], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b65541011865fbaa47cda7774f0e4ece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff1d4980fe134813c106bebfae0f3314 = $(`<div id="html_ff1d4980fe134813c106bebfae0f3314" style="width: 100.0%; height: 100.0%;">Rafah to Anabta: 117.99 km</div>`)[0];
+                popup_b65541011865fbaa47cda7774f0e4ece.setContent(html_ff1d4980fe134813c106bebfae0f3314);
+            
+        
+
+        poly_line_9e5cfe3991ff6782b9398850e293d54a.bindPopup(popup_b65541011865fbaa47cda7774f0e4ece)
+        ;
+
+        
+    
+    
+            var poly_line_a6bd3929d0fa3859305dd7d54b2d8a7d = L.polyline(
+                [[31.2972, 34.2706], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_233bcdd1d3c4613cd2aacbfd97148ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27247b9cb2af7fbb7fc778e00b04ac74 = $(`<div id="html_27247b9cb2af7fbb7fc778e00b04ac74" style="width: 100.0%; height: 100.0%;">Rafah to Atara: 111.27 km</div>`)[0];
+                popup_233bcdd1d3c4613cd2aacbfd97148ab9.setContent(html_27247b9cb2af7fbb7fc778e00b04ac74);
+            
+        
+
+        poly_line_a6bd3929d0fa3859305dd7d54b2d8a7d.bindPopup(popup_233bcdd1d3c4613cd2aacbfd97148ab9)
+        ;
+
+        
+    
+    
+            var poly_line_ae3e9f997dead846a59120324de3525e = L.polyline(
+                [[31.2972, 34.2706], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b08d65dbf8ec7867f44cf122589a7063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b49d32da9a774c037b04653a2c007863 = $(`<div id="html_b49d32da9a774c037b04653a2c007863" style="width: 100.0%; height: 100.0%;">Rafah to Azoun: 118.77 km</div>`)[0];
+                popup_b08d65dbf8ec7867f44cf122589a7063.setContent(html_b49d32da9a774c037b04653a2c007863);
+            
+        
+
+        poly_line_ae3e9f997dead846a59120324de3525e.bindPopup(popup_b08d65dbf8ec7867f44cf122589a7063)
+        ;
+
+        
+    
+    
+            var poly_line_a9b2da28c3d32d54bfe2ea73698424c9 = L.polyline(
+                [[31.2972, 34.2706], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_53f903aabe2d26a08ccfbf09c619e95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d646f5c3cc40b2201df0bbebbb57e32 = $(`<div id="html_5d646f5c3cc40b2201df0bbebbb57e32" style="width: 100.0%; height: 100.0%;">Rafah to Beit Sira: 105.42 km</div>`)[0];
+                popup_53f903aabe2d26a08ccfbf09c619e95e.setContent(html_5d646f5c3cc40b2201df0bbebbb57e32);
+            
+        
+
+        poly_line_a9b2da28c3d32d54bfe2ea73698424c9.bindPopup(popup_53f903aabe2d26a08ccfbf09c619e95e)
+        ;
+
+        
+    
+    
+            var poly_line_48f3af553055c1bc19b065464aedc296 = L.polyline(
+                [[32.09, 35.07], [32.06, 35.08]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_9eaa59f7f33d1c84b544bad9441373d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1cbf3e9e17a8b5cbc802654ee2f7999 = $(`<div id="html_c1cbf3e9e17a8b5cbc802654ee2f7999" style="width: 100.0%; height: 100.0%;">Qalqilya to Tulkarm: 3.46 km</div>`)[0];
+                popup_9eaa59f7f33d1c84b544bad9441373d1.setContent(html_c1cbf3e9e17a8b5cbc802654ee2f7999);
+            
+        
+
+        poly_line_48f3af553055c1bc19b065464aedc296.bindPopup(popup_9eaa59f7f33d1c84b544bad9441373d1)
+        ;
+
+        
+    
+    
+            var poly_line_1fb13df1ebd560bdd08a239526176bcf = L.polyline(
+                [[32.09, 35.07], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3d3e569985dbdfc0c3be84a6e89c84bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d745ad517a0950185c07d7f0b4196642 = $(`<div id="html_d745ad517a0950185c07d7f0b4196642" style="width: 100.0%; height: 100.0%;">Qalqilya to Khan Yunis: 110.02 km</div>`)[0];
+                popup_3d3e569985dbdfc0c3be84a6e89c84bc.setContent(html_d745ad517a0950185c07d7f0b4196642);
+            
+        
+
+        poly_line_1fb13df1ebd560bdd08a239526176bcf.bindPopup(popup_3d3e569985dbdfc0c3be84a6e89c84bc)
+        ;
+
+        
+    
+    
+            var poly_line_5ebbb4bef90ec86cc994ac44f2e6d6bf = L.polyline(
+                [[32.09, 35.07], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_21aa4cf18bb3d8528db3b0d89e696446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df900db2e178d2050a8ae96d015e348 = $(`<div id="html_0df900db2e178d2050a8ae96d015e348" style="width: 100.0%; height: 100.0%;">Qalqilya to Deir al-Balah: 100.69 km</div>`)[0];
+                popup_21aa4cf18bb3d8528db3b0d89e696446.setContent(html_0df900db2e178d2050a8ae96d015e348);
+            
+        
+
+        poly_line_5ebbb4bef90ec86cc994ac44f2e6d6bf.bindPopup(popup_21aa4cf18bb3d8528db3b0d89e696446)
+        ;
+
+        
+    
+    
+            var poly_line_6c5b49b63418d7e00d49afe703e8fca7 = L.polyline(
+                [[32.09, 35.07], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d51ca48012b4e1b9c20aac2881ab71ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e8708c3ddd52988e43aa9976b98f36 = $(`<div id="html_a8e8708c3ddd52988e43aa9976b98f36" style="width: 100.0%; height: 100.0%;">Qalqilya to Maghar: 27.30 km</div>`)[0];
+                popup_d51ca48012b4e1b9c20aac2881ab71ef.setContent(html_a8e8708c3ddd52988e43aa9976b98f36);
+            
+        
+
+        poly_line_6c5b49b63418d7e00d49afe703e8fca7.bindPopup(popup_d51ca48012b4e1b9c20aac2881ab71ef)
+        ;
+
+        
+    
+    
+            var poly_line_830659629bc824f7d28f5a288f0060a7 = L.polyline(
+                [[32.09, 35.07], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f8e921873ab5d533a75504a1da20d2d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d7259a228148a775e6b21486a08dbb3 = $(`<div id="html_8d7259a228148a775e6b21486a08dbb3" style="width: 100.0%; height: 100.0%;">Qalqilya to Dayr al-Ghusun: 6.97 km</div>`)[0];
+                popup_f8e921873ab5d533a75504a1da20d2d4.setContent(html_8d7259a228148a775e6b21486a08dbb3);
+            
+        
+
+        poly_line_830659629bc824f7d28f5a288f0060a7.bindPopup(popup_f8e921873ab5d533a75504a1da20d2d4)
+        ;
+
+        
+    
+    
+            var poly_line_0452b7a053d2b0e9266043f10dcf701e = L.polyline(
+                [[32.09, 35.07], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e1b44e6dcf655a8a0842df7ab09526c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e55d2de57a8e899b217843b2a7a0d7c = $(`<div id="html_4e55d2de57a8e899b217843b2a7a0d7c" style="width: 100.0%; height: 100.0%;">Qalqilya to Anabta: 8.76 km</div>`)[0];
+                popup_e1b44e6dcf655a8a0842df7ab09526c9.setContent(html_4e55d2de57a8e899b217843b2a7a0d7c);
+            
+        
+
+        poly_line_0452b7a053d2b0e9266043f10dcf701e.bindPopup(popup_e1b44e6dcf655a8a0842df7ab09526c9)
+        ;
+
+        
+    
+    
+            var poly_line_92c4626839ae82c94e355696d787aa8e = L.polyline(
+                [[32.09, 35.07], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_bfdf80a87c2e2adfa1032a7f14de9a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62da9c6fbd1e19a2992e9f76d81743c6 = $(`<div id="html_62da9c6fbd1e19a2992e9f76d81743c6" style="width: 100.0%; height: 100.0%;">Qalqilya to Atara: 22.00 km</div>`)[0];
+                popup_bfdf80a87c2e2adfa1032a7f14de9a91.setContent(html_62da9c6fbd1e19a2992e9f76d81743c6);
+            
+        
+
+        poly_line_92c4626839ae82c94e355696d787aa8e.bindPopup(popup_bfdf80a87c2e2adfa1032a7f14de9a91)
+        ;
+
+        
+    
+    
+            var poly_line_0fe2bc32e834fa3dd62638ae759a6515 = L.polyline(
+                [[32.09, 35.07], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_2cb50f970cd312891116d0bdbd420a63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfba15a70924256e868b78253fad8a5c = $(`<div id="html_dfba15a70924256e868b78253fad8a5c" style="width: 100.0%; height: 100.0%;">Qalqilya to Azoun: 8.25 km</div>`)[0];
+                popup_2cb50f970cd312891116d0bdbd420a63.setContent(html_dfba15a70924256e868b78253fad8a5c);
+            
+        
+
+        poly_line_0fe2bc32e834fa3dd62638ae759a6515.bindPopup(popup_2cb50f970cd312891116d0bdbd420a63)
+        ;
+
+        
+    
+    
+            var poly_line_dcb16fa100d8981b709df5d682b6953f = L.polyline(
+                [[32.09, 35.07], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_72c9a984a69616d5fb8929bbb0d5f3aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e841255f67ed813f0d57aeb8b9e5ae46 = $(`<div id="html_e841255f67ed813f0d57aeb8b9e5ae46" style="width: 100.0%; height: 100.0%;">Qalqilya to Beit Sira: 20.51 km</div>`)[0];
+                popup_72c9a984a69616d5fb8929bbb0d5f3aa.setContent(html_e841255f67ed813f0d57aeb8b9e5ae46);
+            
+        
+
+        poly_line_dcb16fa100d8981b709df5d682b6953f.bindPopup(popup_72c9a984a69616d5fb8929bbb0d5f3aa)
+        ;
+
+        
+    
+    
+            var poly_line_f5f8295dbc5d6704a1d038e1562c5d22 = L.polyline(
+                [[32.06, 35.08], [31.34, 34.31]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_fd3cdfe029639fa4cad96a12a2956b07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae2605ee86f356e8993cd1cdd0383573 = $(`<div id="html_ae2605ee86f356e8993cd1cdd0383573" style="width: 100.0%; height: 100.0%;">Tulkarm to Khan Yunis: 108.17 km</div>`)[0];
+                popup_fd3cdfe029639fa4cad96a12a2956b07.setContent(html_ae2605ee86f356e8993cd1cdd0383573);
+            
+        
+
+        poly_line_f5f8295dbc5d6704a1d038e1562c5d22.bindPopup(popup_fd3cdfe029639fa4cad96a12a2956b07)
+        ;
+
+        
+    
+    
+            var poly_line_8630dc1d23660ff46b22116b0ca0b9d1 = L.polyline(
+                [[32.06, 35.08], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_6f98f435d111412227227346d0cddb1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523503c9dcfb5b184bde4c52c5f18ca4 = $(`<div id="html_523503c9dcfb5b184bde4c52c5f18ca4" style="width: 100.0%; height: 100.0%;">Tulkarm to Deir al-Balah: 98.98 km</div>`)[0];
+                popup_6f98f435d111412227227346d0cddb1b.setContent(html_523503c9dcfb5b184bde4c52c5f18ca4);
+            
+        
+
+        poly_line_8630dc1d23660ff46b22116b0ca0b9d1.bindPopup(popup_6f98f435d111412227227346d0cddb1b)
+        ;
+
+        
+    
+    
+            var poly_line_af52821e7151b06d965e8bb718924824 = L.polyline(
+                [[32.06, 35.08], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b498b77d85a3f03b208ec52a6a9aa3ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a02926c5c5ed66cf7fc3b2470f5b7ba = $(`<div id="html_0a02926c5c5ed66cf7fc3b2470f5b7ba" style="width: 100.0%; height: 100.0%;">Tulkarm to Maghar: 28.92 km</div>`)[0];
+                popup_b498b77d85a3f03b208ec52a6a9aa3ba.setContent(html_0a02926c5c5ed66cf7fc3b2470f5b7ba);
+            
+        
+
+        poly_line_af52821e7151b06d965e8bb718924824.bindPopup(popup_b498b77d85a3f03b208ec52a6a9aa3ba)
+        ;
+
+        
+    
+    
+            var poly_line_21af555bb2a32fb85bb8a44843ba34ca = L.polyline(
+                [[32.06, 35.08], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ffaa33ba18f92f4dbfb65bebd83ab9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb17f51fb00a1c429223f68275a992e = $(`<div id="html_adb17f51fb00a1c429223f68275a992e" style="width: 100.0%; height: 100.0%;">Tulkarm to Dayr al-Ghusun: 5.77 km</div>`)[0];
+                popup_ffaa33ba18f92f4dbfb65bebd83ab9e9.setContent(html_adb17f51fb00a1c429223f68275a992e);
+            
+        
+
+        poly_line_21af555bb2a32fb85bb8a44843ba34ca.bindPopup(popup_ffaa33ba18f92f4dbfb65bebd83ab9e9)
+        ;
+
+        
+    
+    
+            var poly_line_eb3252bb632d141f9f6dc47028c9a324 = L.polyline(
+                [[32.06, 35.08], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f43d77e699494ee93ad343fa49838dba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2e69f6a2b915060bfb5c3b78befa13d = $(`<div id="html_f2e69f6a2b915060bfb5c3b78befa13d" style="width: 100.0%; height: 100.0%;">Tulkarm to Anabta: 6.70 km</div>`)[0];
+                popup_f43d77e699494ee93ad343fa49838dba.setContent(html_f2e69f6a2b915060bfb5c3b78befa13d);
+            
+        
+
+        poly_line_eb3252bb632d141f9f6dc47028c9a324.bindPopup(popup_f43d77e699494ee93ad343fa49838dba)
+        ;
+
+        
+    
+    
+            var poly_line_6e48411fc1013bef2aa159a974ed2cc4 = L.polyline(
+                [[32.06, 35.08], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_abd3ae1c36a99386393cde9e5bba11c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d94bc7c5a45d4e50d2d465f205019bf = $(`<div id="html_8d94bc7c5a45d4e50d2d465f205019bf" style="width: 100.0%; height: 100.0%;">Tulkarm to Atara: 18.68 km</div>`)[0];
+                popup_abd3ae1c36a99386393cde9e5bba11c2.setContent(html_8d94bc7c5a45d4e50d2d465f205019bf);
+            
+        
+
+        poly_line_6e48411fc1013bef2aa159a974ed2cc4.bindPopup(popup_abd3ae1c36a99386393cde9e5bba11c2)
+        ;
+
+        
+    
+    
+            var poly_line_850c9f625a14112bc35465784f0d1e0e = L.polyline(
+                [[32.06, 35.08], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ac2b677809f219f93c2b6986d0cbf08f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6527c8038f98b5b798ae6d48f159d74 = $(`<div id="html_a6527c8038f98b5b798ae6d48f159d74" style="width: 100.0%; height: 100.0%;">Tulkarm to Azoun: 6.61 km</div>`)[0];
+                popup_ac2b677809f219f93c2b6986d0cbf08f.setContent(html_a6527c8038f98b5b798ae6d48f159d74);
+            
+        
+
+        poly_line_850c9f625a14112bc35465784f0d1e0e.bindPopup(popup_ac2b677809f219f93c2b6986d0cbf08f)
+        ;
+
+        
+    
+    
+            var poly_line_c5ba7554d915de90f022ccc5b94e0860 = L.polyline(
+                [[32.06, 35.08], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_5d0715ed913a77e80b62e403151e8a2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14253cd942d32ee8206005012428da89 = $(`<div id="html_14253cd942d32ee8206005012428da89" style="width: 100.0%; height: 100.0%;">Tulkarm to Beit Sira: 17.06 km</div>`)[0];
+                popup_5d0715ed913a77e80b62e403151e8a2b.setContent(html_14253cd942d32ee8206005012428da89);
+            
+        
+
+        poly_line_c5ba7554d915de90f022ccc5b94e0860.bindPopup(popup_5d0715ed913a77e80b62e403151e8a2b)
+        ;
+
+        
+    
+    
+            var poly_line_89c1ddd7585b0693fe01bdbe4d716350 = L.polyline(
+                [[31.34, 34.31], [31.43, 34.34]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_cb56c3a20c09e4db230f5c16d3b274bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabef77cca54801a12cf2a24fd2ed25e = $(`<div id="html_eabef77cca54801a12cf2a24fd2ed25e" style="width: 100.0%; height: 100.0%;">Khan Yunis to Deir al-Balah: 10.38 km</div>`)[0];
+                popup_cb56c3a20c09e4db230f5c16d3b274bc.setContent(html_eabef77cca54801a12cf2a24fd2ed25e);
+            
+        
+
+        poly_line_89c1ddd7585b0693fe01bdbe4d716350.bindPopup(popup_cb56c3a20c09e4db230f5c16d3b274bc)
+        ;
+
+        
+    
+    
+            var poly_line_d3789f7f8f962d38833c609d061a2d4d = L.polyline(
+                [[31.34, 34.31], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_a2f160906a775aadbe3e3382da46265a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a4118e4c4afc0a57dab56390098cd7 = $(`<div id="html_08a4118e4c4afc0a57dab56390098cd7" style="width: 100.0%; height: 100.0%;">Khan Yunis to Maghar: 137.09 km</div>`)[0];
+                popup_a2f160906a775aadbe3e3382da46265a.setContent(html_08a4118e4c4afc0a57dab56390098cd7);
+            
+        
+
+        poly_line_d3789f7f8f962d38833c609d061a2d4d.bindPopup(popup_a2f160906a775aadbe3e3382da46265a)
+        ;
+
+        
+    
+    
+            var poly_line_628802d880ad3e38b820546fb57b1430 = L.polyline(
+                [[31.34, 34.31], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_829fa2b04724673eb357eb335900b83c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f68c09d09ce87612a741f62fdf8f42e = $(`<div id="html_3f68c09d09ce87612a741f62fdf8f42e" style="width: 100.0%; height: 100.0%;">Khan Yunis to Dayr al-Ghusun: 112.88 km</div>`)[0];
+                popup_829fa2b04724673eb357eb335900b83c.setContent(html_3f68c09d09ce87612a741f62fdf8f42e);
+            
+        
+
+        poly_line_628802d880ad3e38b820546fb57b1430.bindPopup(popup_829fa2b04724673eb357eb335900b83c)
+        ;
+
+        
+    
+    
+            var poly_line_265fe4f020f96f351599d87cbfb8daef = L.polyline(
+                [[31.34, 34.31], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c7c4ffb77026c9cd23923afb1fe89ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0003c83e2514d95db3b99a8e7201e007 = $(`<div id="html_0003c83e2514d95db3b99a8e7201e007" style="width: 100.0%; height: 100.0%;">Khan Yunis to Anabta: 111.98 km</div>`)[0];
+                popup_c7c4ffb77026c9cd23923afb1fe89ff8.setContent(html_0003c83e2514d95db3b99a8e7201e007);
+            
+        
+
+        poly_line_265fe4f020f96f351599d87cbfb8daef.bindPopup(popup_c7c4ffb77026c9cd23923afb1fe89ff8)
+        ;
+
+        
+    
+    
+            var poly_line_ca02fbfd08c965968bc1a99b55551758 = L.polyline(
+                [[31.34, 34.31], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_329eb976010b729554334a1e0542da27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c875875125d588ac991fe6d4eada6da4 = $(`<div id="html_c875875125d588ac991fe6d4eada6da4" style="width: 100.0%; height: 100.0%;">Khan Yunis to Atara: 105.38 km</div>`)[0];
+                popup_329eb976010b729554334a1e0542da27.setContent(html_c875875125d588ac991fe6d4eada6da4);
+            
+        
+
+        poly_line_ca02fbfd08c965968bc1a99b55551758.bindPopup(popup_329eb976010b729554334a1e0542da27)
+        ;
+
+        
+    
+    
+            var poly_line_a28f1a50c05735d709110a91a3c0ca87 = L.polyline(
+                [[31.34, 34.31], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d6d1dba37f0ddf96569e792cfaa9df1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86cf9705dc9a99c1768738d652876b52 = $(`<div id="html_86cf9705dc9a99c1768738d652876b52" style="width: 100.0%; height: 100.0%;">Khan Yunis to Azoun: 112.76 km</div>`)[0];
+                popup_d6d1dba37f0ddf96569e792cfaa9df1f.setContent(html_86cf9705dc9a99c1768738d652876b52);
+            
+        
+
+        poly_line_a28f1a50c05735d709110a91a3c0ca87.bindPopup(popup_d6d1dba37f0ddf96569e792cfaa9df1f)
+        ;
+
+        
+    
+    
+            var poly_line_8fc14ece302bd3db562d52c57531face = L.polyline(
+                [[31.34, 34.31], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_e971771a8736f4e81c48e15eb9b840e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feeaab35e2d0a328754cbed1eb53e2d8 = $(`<div id="html_feeaab35e2d0a328754cbed1eb53e2d8" style="width: 100.0%; height: 100.0%;">Khan Yunis to Beit Sira: 99.50 km</div>`)[0];
+                popup_e971771a8736f4e81c48e15eb9b840e9.setContent(html_feeaab35e2d0a328754cbed1eb53e2d8);
+            
+        
+
+        poly_line_8fc14ece302bd3db562d52c57531face.bindPopup(popup_e971771a8736f4e81c48e15eb9b840e9)
+        ;
+
+        
+    
+    
+            var poly_line_abe9b3b09a7ebb9bdcc7131561f2343c = L.polyline(
+                [[31.43, 34.34], [32.25, 35.29]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_609d51ace4a06d42fc501eed7a3eb552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9427be949cdc4dfd72794618e43833 = $(`<div id="html_3d9427be949cdc4dfd72794618e43833" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Maghar: 127.88 km</div>`)[0];
+                popup_609d51ace4a06d42fc501eed7a3eb552.setContent(html_3d9427be949cdc4dfd72794618e43833);
+            
+        
+
+        poly_line_abe9b3b09a7ebb9bdcc7131561f2343c.bindPopup(popup_609d51ace4a06d42fc501eed7a3eb552)
+        ;
+
+        
+    
+    
+            var poly_line_134572f91936234434816b728e8c514a = L.polyline(
+                [[31.43, 34.34], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4c4652e2db16a68f30cd6835e5a76c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65bfe55624d9221ed1d7e4cd6266f5e6 = $(`<div id="html_65bfe55624d9221ed1d7e4cd6266f5e6" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Dayr al-Ghusun: 103.83 km</div>`)[0];
+                popup_4c4652e2db16a68f30cd6835e5a76c2c.setContent(html_65bfe55624d9221ed1d7e4cd6266f5e6);
+            
+        
+
+        poly_line_134572f91936234434816b728e8c514a.bindPopup(popup_4c4652e2db16a68f30cd6835e5a76c2c)
+        ;
+
+        
+    
+    
+            var poly_line_1d653454235fbaaf149e1ee3490a8f5a = L.polyline(
+                [[31.43, 34.34], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_f422ee421fa6cbf0b0a0bf5929a75285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77eacefecd622f46b54854446eb8e50e = $(`<div id="html_77eacefecd622f46b54854446eb8e50e" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Anabta: 103.04 km</div>`)[0];
+                popup_f422ee421fa6cbf0b0a0bf5929a75285.setContent(html_77eacefecd622f46b54854446eb8e50e);
+            
+        
+
+        poly_line_1d653454235fbaaf149e1ee3490a8f5a.bindPopup(popup_f422ee421fa6cbf0b0a0bf5929a75285)
+        ;
+
+        
+    
+    
+            var poly_line_f736e962ec4250d4a3fde1064b8b54b7 = L.polyline(
+                [[31.43, 34.34], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_52cd0c1018a6ba083356bf71d429c3e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3664236fda86689f665f8d5be2d15e5 = $(`<div id="html_e3664236fda86689f665f8d5be2d15e5" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Atara: 97.20 km</div>`)[0];
+                popup_52cd0c1018a6ba083356bf71d429c3e3.setContent(html_e3664236fda86689f665f8d5be2d15e5);
+            
+        
+
+        poly_line_f736e962ec4250d4a3fde1064b8b54b7.bindPopup(popup_52cd0c1018a6ba083356bf71d429c3e3)
+        ;
+
+        
+    
+    
+            var poly_line_af645f36cdcc471f4d22817bdcf09c2a = L.polyline(
+                [[31.43, 34.34], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_668aa36f8c4c09610daf1f6e2462a6a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8373c8ea5ec7097e81c21e93613657f3 = $(`<div id="html_8373c8ea5ec7097e81c21e93613657f3" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Azoun: 103.78 km</div>`)[0];
+                popup_668aa36f8c4c09610daf1f6e2462a6a7.setContent(html_8373c8ea5ec7097e81c21e93613657f3);
+            
+        
+
+        poly_line_af645f36cdcc471f4d22817bdcf09c2a.bindPopup(popup_668aa36f8c4c09610daf1f6e2462a6a7)
+        ;
+
+        
+    
+    
+            var poly_line_465677db2fc3de631515296680762f24 = L.polyline(
+                [[31.43, 34.34], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_ffff4d1886ca14670f37ec5306e1a35f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb8c273507bf14d48f2527deb087d995 = $(`<div id="html_cb8c273507bf14d48f2527deb087d995" style="width: 100.0%; height: 100.0%;">Deir al-Balah to Beit Sira: 91.12 km</div>`)[0];
+                popup_ffff4d1886ca14670f37ec5306e1a35f.setContent(html_cb8c273507bf14d48f2527deb087d995);
+            
+        
+
+        poly_line_465677db2fc3de631515296680762f24.bindPopup(popup_ffff4d1886ca14670f37ec5306e1a35f)
+        ;
+
+        
+    
+    
+            var poly_line_cf6f61e3d5e254b7880c62eb9b3b6281 = L.polyline(
+                [[32.25, 35.29], [32.07, 35.14]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_b6bd1add8e6a4fb1415c40230e3be41e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74a804af6e9760a0b3f37c23ba85c77d = $(`<div id="html_74a804af6e9760a0b3f37c23ba85c77d" style="width: 100.0%; height: 100.0%;">Maghar to Dayr al-Ghusun: 24.47 km</div>`)[0];
+                popup_b6bd1add8e6a4fb1415c40230e3be41e.setContent(html_74a804af6e9760a0b3f37c23ba85c77d);
+            
+        
+
+        poly_line_cf6f61e3d5e254b7880c62eb9b3b6281.bindPopup(popup_b6bd1add8e6a4fb1415c40230e3be41e)
+        ;
+
+        
+    
+    
+            var poly_line_0d441986d1f3344ea45b773cd02f2fec = L.polyline(
+                [[32.25, 35.29], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_934122918ea7d336a9f9886beaa9a066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee19da8444fa593b6c4c21e7e969ba5 = $(`<div id="html_6ee19da8444fa593b6c4c21e7e969ba5" style="width: 100.0%; height: 100.0%;">Maghar to Anabta: 25.81 km</div>`)[0];
+                popup_934122918ea7d336a9f9886beaa9a066.setContent(html_6ee19da8444fa593b6c4c21e7e969ba5);
+            
+        
+
+        poly_line_0d441986d1f3344ea45b773cd02f2fec.bindPopup(popup_934122918ea7d336a9f9886beaa9a066)
+        ;
+
+        
+    
+    
+            var poly_line_1f65ad8c8fa02939490e4db3c23c48c2 = L.polyline(
+                [[32.25, 35.29], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_4fbd66459a4909d81cf60cc2e2751e86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec9d1eae222f2537ded43b7a031f600d = $(`<div id="html_ec9d1eae222f2537ded43b7a031f600d" style="width: 100.0%; height: 100.0%;">Maghar to Atara: 37.79 km</div>`)[0];
+                popup_4fbd66459a4909d81cf60cc2e2751e86.setContent(html_ec9d1eae222f2537ded43b7a031f600d);
+            
+        
+
+        poly_line_1f65ad8c8fa02939490e4db3c23c48c2.bindPopup(popup_4fbd66459a4909d81cf60cc2e2751e86)
+        ;
+
+        
+    
+    
+            var poly_line_b32db609c79c023f9a3c60f518a92ccc = L.polyline(
+                [[32.25, 35.29], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3adea36cd2c9678d7973c65f5584a2c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_897cd166bb3d05d2b3f89cdae1431143 = $(`<div id="html_897cd166bb3d05d2b3f89cdae1431143" style="width: 100.0%; height: 100.0%;">Maghar to Azoun: 24.87 km</div>`)[0];
+                popup_3adea36cd2c9678d7973c65f5584a2c8.setContent(html_897cd166bb3d05d2b3f89cdae1431143);
+            
+        
+
+        poly_line_b32db609c79c023f9a3c60f518a92ccc.bindPopup(popup_3adea36cd2c9678d7973c65f5584a2c8)
+        ;
+
+        
+    
+    
+            var poly_line_2165d6852c4b1079ff3f0dfab117e3e1 = L.polyline(
+                [[32.25, 35.29], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d0b0ff9b28e19d3850a73f3289fb4a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3788621eeefb2b723cc4e9358e6205f8 = $(`<div id="html_3788621eeefb2b723cc4e9358e6205f8" style="width: 100.0%; height: 100.0%;">Maghar to Beit Sira: 40.98 km</div>`)[0];
+                popup_d0b0ff9b28e19d3850a73f3289fb4a51.setContent(html_3788621eeefb2b723cc4e9358e6205f8);
+            
+        
+
+        poly_line_2165d6852c4b1079ff3f0dfab117e3e1.bindPopup(popup_d0b0ff9b28e19d3850a73f3289fb4a51)
+        ;
+
+        
+    
+    
+            var poly_line_dc638caa230572a2e53e4fc3bdeebed0 = L.polyline(
+                [[32.07, 35.14], [32.05, 35.15]],
+                {"bubblingMouseEvents": true, "color": "maroon", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "maroon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_5ba3ccf305163570a7efcb4d49533246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_782514e5998625fd6f50d06d2e50d0c6 = $(`<div id="html_782514e5998625fd6f50d06d2e50d0c6" style="width: 100.0%; height: 100.0%;">Dayr al-Ghusun to Anabta: 2.41 km</div>`)[0];
+                popup_5ba3ccf305163570a7efcb4d49533246.setContent(html_782514e5998625fd6f50d06d2e50d0c6);
+            
+        
+
+        poly_line_dc638caa230572a2e53e4fc3bdeebed0.bindPopup(popup_5ba3ccf305163570a7efcb4d49533246)
+        ;
+
+        
+    
+    
+            var poly_line_242dcff3a30a5f0e24c9db2e5dcd63fd = L.polyline(
+                [[32.07, 35.14], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "maroon", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "maroon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_008bbf0eaf1709a43a041911e37b86dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6443aadefda483422a755c14dcef6330 = $(`<div id="html_6443aadefda483422a755c14dcef6330" style="width: 100.0%; height: 100.0%;">Dayr al-Ghusun to Atara: 17.29 km</div>`)[0];
+                popup_008bbf0eaf1709a43a041911e37b86dc.setContent(html_6443aadefda483422a755c14dcef6330);
+            
+        
+
+        poly_line_242dcff3a30a5f0e24c9db2e5dcd63fd.bindPopup(popup_008bbf0eaf1709a43a041911e37b86dc)
+        ;
+
+        
+    
+    
+            var poly_line_59062a315e0b08f3f26b4b1efb497a8b = L.polyline(
+                [[32.07, 35.14], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "maroon", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "maroon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_cb73a2783e33fbfa06ec778caaaf50f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e15163a4cbfdc471f26ce76eaa2bc4d = $(`<div id="html_2e15163a4cbfdc471f26ce76eaa2bc4d" style="width: 100.0%; height: 100.0%;">Dayr al-Ghusun to Azoun: 1.46 km</div>`)[0];
+                popup_cb73a2783e33fbfa06ec778caaaf50f1.setContent(html_2e15163a4cbfdc471f26ce76eaa2bc4d);
+            
+        
+
+        poly_line_59062a315e0b08f3f26b4b1efb497a8b.bindPopup(popup_cb73a2783e33fbfa06ec778caaaf50f1)
+        ;
+
+        
+    
+    
+            var poly_line_97d331a0985fb06e3bbe8b3a417821f7 = L.polyline(
+                [[32.07, 35.14], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "maroon", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "maroon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_d39b6c04f4fea3f903589b12f7002fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565a2d1477551c2a83213b1f22c89af8 = $(`<div id="html_565a2d1477551c2a83213b1f22c89af8" style="width: 100.0%; height: 100.0%;">Dayr al-Ghusun to Beit Sira: 17.84 km</div>`)[0];
+                popup_d39b6c04f4fea3f903589b12f7002fe7.setContent(html_565a2d1477551c2a83213b1f22c89af8);
+            
+        
+
+        poly_line_97d331a0985fb06e3bbe8b3a417821f7.bindPopup(popup_d39b6c04f4fea3f903589b12f7002fe7)
+        ;
+
+        
+    
+    
+            var poly_line_ae3509c3eaa6e971e343779a41bcdf61 = L.polyline(
+                [[32.05, 35.15], [31.92, 35.19]],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "navy", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_dbc44253b86d3c6b226c65a37410f05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db67da9ebf58e77e39fa774df35b6341 = $(`<div id="html_db67da9ebf58e77e39fa774df35b6341" style="width: 100.0%; height: 100.0%;">Anabta to Atara: 14.90 km</div>`)[0];
+                popup_dbc44253b86d3c6b226c65a37410f05c.setContent(html_db67da9ebf58e77e39fa774df35b6341);
+            
+        
+
+        poly_line_ae3509c3eaa6e971e343779a41bcdf61.bindPopup(popup_dbc44253b86d3c6b226c65a37410f05c)
+        ;
+
+        
+    
+    
+            var poly_line_7e7d00e436ef178af2646804333100a4 = L.polyline(
+                [[32.05, 35.15], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "navy", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_c7d4a150d3ad4999dd863c59e6c4fd48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b5ac8a3d5330a575e02f8044dab5a8 = $(`<div id="html_47b5ac8a3d5330a575e02f8044dab5a8" style="width: 100.0%; height: 100.0%;">Anabta to Azoun: 1.11 km</div>`)[0];
+                popup_c7d4a150d3ad4999dd863c59e6c4fd48.setContent(html_47b5ac8a3d5330a575e02f8044dab5a8);
+            
+        
+
+        poly_line_7e7d00e436ef178af2646804333100a4.bindPopup(popup_c7d4a150d3ad4999dd863c59e6c4fd48)
+        ;
+
+        
+    
+    
+            var poly_line_ae3fe53b90e71be7184c6859139027e1 = L.polyline(
+                [[32.05, 35.15], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "navy", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_35c2eb135a61b3a88a723e70d338cfee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c22a4539cecdf12f51ae839714040b8 = $(`<div id="html_5c22a4539cecdf12f51ae839714040b8" style="width: 100.0%; height: 100.0%;">Anabta to Beit Sira: 15.78 km</div>`)[0];
+                popup_35c2eb135a61b3a88a723e70d338cfee.setContent(html_5c22a4539cecdf12f51ae839714040b8);
+            
+        
+
+        poly_line_ae3fe53b90e71be7184c6859139027e1.bindPopup(popup_35c2eb135a61b3a88a723e70d338cfee)
+        ;
+
+        
+    
+    
+            var poly_line_9eece3d1618788cb8e7ffc1a4b6af9ea = L.polyline(
+                [[31.92, 35.19], [32.06, 35.15]],
+                {"bubblingMouseEvents": true, "color": "olive", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "olive", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_6fcce08fb5e60373bac7cd04c1c02afa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd55e6bb9ca286e966ac6b3c091c648c = $(`<div id="html_bd55e6bb9ca286e966ac6b3c091c648c" style="width: 100.0%; height: 100.0%;">Atara to Azoun: 15.98 km</div>`)[0];
+                popup_6fcce08fb5e60373bac7cd04c1c02afa.setContent(html_bd55e6bb9ca286e966ac6b3c091c648c);
+            
+        
+
+        poly_line_9eece3d1618788cb8e7ffc1a4b6af9ea.bindPopup(popup_6fcce08fb5e60373bac7cd04c1c02afa)
+        ;
+
+        
+    
+    
+            var poly_line_6aa5acb64890f56f1f69bdc1dc00d25b = L.polyline(
+                [[31.92, 35.19], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "olive", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "olive", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_1c41a30e283c8b506f4b3a2dc1ebc3ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e1343eebfb65903f9cbc5cf3466b5c6 = $(`<div id="html_3e1343eebfb65903f9cbc5cf3466b5c6" style="width: 100.0%; height: 100.0%;">Atara to Beit Sira: 6.71 km</div>`)[0];
+                popup_1c41a30e283c8b506f4b3a2dc1ebc3ca.setContent(html_3e1343eebfb65903f9cbc5cf3466b5c6);
+            
+        
+
+        poly_line_6aa5acb64890f56f1f69bdc1dc00d25b.bindPopup(popup_1c41a30e283c8b506f4b3a2dc1ebc3ca)
+        ;
+
+        
+    
+    
+            var poly_line_d1ac48fde065ce9ced5bce86b5169800 = L.polyline(
+                [[32.06, 35.15], [31.91, 35.12]],
+                {"bubblingMouseEvents": true, "color": "teal", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "teal", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ebc2dc9fb6443e3e7d3e26dc51180195);
+        
+    
+        var popup_3e4be361b5723086a939389235375bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f37e683f750a1f0cf46d95c89b76e5b = $(`<div id="html_8f37e683f750a1f0cf46d95c89b76e5b" style="width: 100.0%; height: 100.0%;">Azoun to Beit Sira: 16.87 km</div>`)[0];
+                popup_3e4be361b5723086a939389235375bd5.setContent(html_8f37e683f750a1f0cf46d95c89b76e5b);
+            
+        
+
+        poly_line_d1ac48fde065ce9ced5bce86b5169800.bindPopup(popup_3e4be361b5723086a939389235375bd5)
+        ;
+
+        
+    
+</script>
+</html>
